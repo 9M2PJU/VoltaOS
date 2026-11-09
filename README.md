@@ -30,9 +30,11 @@ Volta OS is ambitious, but it is **not complete yet**: it is in **beta**. You ma
 and **missing features**, which will be fixed and added in future releases.
 
 **Your feedback matters a lot.** If something does not work, or if there is a feature you would like to see,
-please let me know by opening an [issue](https://github.com/omardigiovanni3-beep/VoltaOS/issues): tell me what you
+please let me know by opening an [issue](https://github.com/Omardigio/VoltaOS/issues): tell me what you
 were doing, what you expected and what happened instead. Bug reports and feature requests are the best way to
 help the project grow.
+
+The list of what does not work yet is in [docs/known-issues.md](docs/known-issues.md).
 
 * * *
 
@@ -78,6 +80,7 @@ the settings. The interface is translated into Italian, English, Spanish, French
 - [Interface](docs/interface.md)
 - [Settings](docs/settings/README.md), entry by entry
 - [Troubleshooting](docs/troubleshooting.md)
+- [Known issues and limitations](docs/known-issues.md)
 
 **Development**
 - [For developers](docs/development.md): project structure, services, translations, AppImage
@@ -157,7 +160,7 @@ Common problems (audio, GPS, Bluetooth, dongle, games that do not start) are col
 ## 📄 License and credits
 
 Volta OS is free software, released under the **GNU General Public License v3.0** (see [`LICENSE`](LICENSE)):
-Copyright (C) 2026 Omar (omardigio). You can use, study, share and modify it; if you distribute
+Copyright (C) 2026 Omar (Omardigio). You can use, study, share and modify it; if you distribute
 a modified version it must stay under the same license, with its source code.
 
 It is built on other open-source projects, each under its own license: Qt 6 (LGPLv3), MapLibre Native (BSD),

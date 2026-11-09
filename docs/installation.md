@@ -30,7 +30,7 @@ libraries). You can reopen the check any time from *Settings › System › Conn
 ## Building from source
 
 ```bash
-git clone https://github.com/omardigiovanni3-beep/VoltaOS.git ~/volta_os
+git clone https://github.com/Omardigio/VoltaOS.git ~/volta_os
 cd ~/volta_os
 ./install.sh
 ```

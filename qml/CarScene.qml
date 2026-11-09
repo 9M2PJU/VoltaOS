@@ -155,7 +155,7 @@ Item {
     property bool beamDust: true         // pulviscolo in sospensione
     readonly property string _beamTex: "qrc:/VoltaApp/car3d/tex/beamTex.png"
 
-    // ═══ PAVIMENTO STILE TESLA ═══
+    // ═══ FLOOR ═══
     // Floor texture (rough asphalt/concrete, continuous tile). Intensity 0..1 and repetitions.
     property real floorTexAmount: 1.0
     // dl70: very faint concrete texture (almost imperceptible) in place of the rough one

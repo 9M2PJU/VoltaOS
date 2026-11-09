@@ -403,7 +403,7 @@ Rectangle {
         z: 2
         anchors.fill: parent
 
-        // ── NAVBAR STILE TESLA ─────────────────────────────
+        // ── NAVBAR ─────────────────────────────
         Rectangle {
             id: navbar
             width: parent.width; height: 38 * ((Window.window && Window.window.uPx) ? Window.window.uPx : 1.12); color: "transparent"; z: 2

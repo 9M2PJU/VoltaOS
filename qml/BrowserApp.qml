@@ -357,7 +357,7 @@ Rectangle {
         "amazon.it", "netflix.com", "twitch.tv", "reddit.com", "whatsapp.com",
         "repubblica.it", "corriere.it", "ansa.it", "gazzetta.it", "ilmeteo.it",
         "spotify.com", "github.com", "linkedin.com", "primevideo.com", "raiplay.it",
-        "subito.it", "ebay.it", "tesla.com", "openstreetmap.org", "maps.google.com",
+        "subito.it", "ebay.it", "openstreetmap.org", "maps.google.com",
         "mail.google.com", "x.com", "tiktok.com", "disneyplus.com", "dazn.com"
     ]
 

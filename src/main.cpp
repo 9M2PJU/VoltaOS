@@ -294,56 +294,8 @@ static void volta_startStallProbe()
 }
 
 
-// Migration from the old name (Tesla*) to Volta OS: the user's files and folders (settings, keys,
-// cache, scripts) with "tesla" in the name are renamed once, without losing anything.
-static QString voltaName(QString n)
-{
-    n.replace(QLatin1String("Tesla Infotainment"), QLatin1String("Volta OS"));
-    n.replace(QLatin1String("TeslaQt"), QLatin1String("VoltaOS"));
-    n.replace(QLatin1String("TeslaUI"), QLatin1String("VoltaUI"));
-    n.replace(QLatin1String("Tesla"), QLatin1String("Volta"));
-    n.replace(QLatin1String("tesla"), QLatin1String("volta"));
-    return n;
-}
-static void migrateFromTesla()
-{
-    const QString home = QDir::homePath();
-    const QStringList roots = { home + "/.config", home + "/.local/share", home + "/.cache", home + "/.local/bin" };
-    for (const QString &root : roots) {
-        QDir d(root);
-        const auto entries = d.entryInfoList(QDir::AllEntries | QDir::NoDotAndDotDot | QDir::Hidden);
-        for (const QFileInfo &fi : entries) {
-            const QString name = fi.fileName();
-            if (!name.contains(QLatin1String("tesla"), Qt::CaseInsensitive)) continue;
-            if (name.contains(QLatin1String("TeslaCar3D"))) continue;     // QML cache recreated by itself
-            const QString nn = voltaName(name);
-            if (nn == name || d.exists(nn)) continue;
-            if (!d.rename(name, nn)) continue;
-            qInfo().noquote() << "[migrazione]" << fi.absoluteFilePath() << "->" << nn;
-            // also the files inside the settings folders ("Tesla Infotainment.conf", ...)
-            if (fi.isDir() && root.endsWith(QLatin1String("/.config"))) {
-                QDir sub(root + "/" + nn);
-                for (const QFileInfo &f2 : sub.entryInfoList(QDir::Files | QDir::NoDotAndDotDot)) {
-                    const QString n2 = voltaName(f2.fileName());
-                    if (n2 != f2.fileName() && !sub.exists(n2)) sub.rename(f2.fileName(), n2);
-                }
-            }
-        }
-    }
-    // the scripts installed by the user in ~/.local/bin cite the old names of the settings files
-    QDir bin(home + "/.local/bin");
-    for (const QFileInfo &f : bin.entryInfoList(QStringList{"volta_*"}, QDir::Files)) {
-        QFile fl(f.absoluteFilePath());
-        if (!fl.open(QIODevice::ReadOnly)) continue;
-        const QString txt = QString::fromUtf8(fl.readAll()); fl.close();
-        const QString nt = voltaName(txt);
-        if (nt != txt && fl.open(QIODevice::WriteOnly | QIODevice::Truncate)) fl.write(nt.toUtf8());
-    }
-}
-
 int main(int argc, char *argv[])
 {
-    migrateFromTesla();   // before any settings reading
     qDebug() << "[T] main() entered";
     qputenv("QT_DEBUG_PLUGINS", "0");
     qputenv("QT_FATAL_WARNINGS", "0");
