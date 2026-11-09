@@ -1,7 +1,40 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
-<defs><linearGradient id="gradio" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFB02E"/><stop offset="1" stop-color="#F0700A"/></linearGradient>
-<linearGradient id="hradio" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".22"/><stop offset=".5" stop-color="#fff" stop-opacity="0"/></linearGradient></defs>
-<rect x="4" y="4" width="120" height="120" rx="32" fill="url(#gradio)"/>
-<rect x="4" y="4" width="120" height="120" rx="32" fill="url(#hradio)"/>
-<g fill="none" stroke="#fff" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"><circle cx="64" cy="64" r="9" fill="#fff" stroke="none"/><path d="M45 45a27 27 0 0 0 0 38M83 45a27 27 0 0 1 0 38M34 34a43 43 0 0 0 0 60M94 34a43 43 0 0 1 0 60"/></g>
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="1.886 1.886 60.227 60.227" fill="none">
+  <defs>
+    
+    <linearGradient id="fmBgGrad" x1="32" y1="6" x2="32" y2="58" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#D4D4D4" />
+    </linearGradient>
+
+    
+    <filter id="buttonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#000000" flood-opacity="0.6" />
+    </filter>
+  </defs>
+
+  
+  <rect x="6" y="6" width="52" height="52" rx="8" fill="url(#fmBgGrad)" filter="url(#buttonShadow)" stroke="#A0A0A0" stroke-width="1" />
+
+  
+  <rect x="7" y="7" width="50" height="50" rx="7" fill="none" stroke="#FFFFFF" stroke-width="1.5" opacity="0.8" />
+
+  
+  <text x="13" y="27" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="900" fill="#1A1A1A" letter-spacing="-0.5">FM</text>
+
+  
+  <g stroke-linecap="round">
+    
+    <line x1="13" y1="44" x2="13" y2="50" stroke="#444444" stroke-width="2" />
+    <line x1="18" y1="44" x2="18" y2="50" stroke="#444444" stroke-width="2" />
+    <line x1="23" y1="44" x2="23" y2="50" stroke="#444444" stroke-width="2" />
+    <line x1="28" y1="44" x2="28" y2="50" stroke="#444444" stroke-width="2" />
+    <line x1="33" y1="44" x2="33" y2="50" stroke="#444444" stroke-width="2" />
+    <line x1="38" y1="44" x2="38" y2="50" stroke="#444444" stroke-width="2" />
+    
+    
+    <line x1="44" y1="35" x2="44" y2="50" stroke="#B32025" stroke-width="3" />
+    
+    
+    <line x1="50" y1="44" x2="50" y2="50" stroke="#444444" stroke-width="2" />
+  </g>
 </svg>
