@@ -29,7 +29,7 @@ Rectangle {
         { appId: "spotify",    name: "YT Music",  icon: "qrc:/VoltaApp/icons/ytmusic.svg" },
         { appId: "spotifyapp", name: "Spotify",   icon: "qrc:/VoltaApp/icons/spotify.svg" },
         { appId: "localmusic", name: qsTr("Music"), icon: "qrc:/VoltaApp/icons/localmusic.svg" },
-        { appId: "podcast",    name: "Apple Podcast",   icon: "qrc:/VoltaApp/icons/podcast.svg" },
+        { appId: "podcast",    name: "Podcasts",   icon: "qrc:/VoltaApp/icons/podcast.svg" },
         { appId: "bluetooth",  name: "Bluetooth", icon: "qrc:/VoltaApp/icons/bluetooth.svg" }
     ]
     readonly property string selfAppId: "podcast"

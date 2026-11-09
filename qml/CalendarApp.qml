@@ -86,13 +86,7 @@ Rectangle {
 
     // ── Icon with the current day (same look as the app drawer) ────
     function _iconSvg(n) {
-        return '<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="1.886 1.886 60.227 60.227">'
-          + '<defs><linearGradient id="a" x1="32" y1="6" x2="32" y2="58" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#D0D0D0"/></linearGradient>'
-          + '<linearGradient id="b" x1="32" y1="6" x2="32" y2="16" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#E53935"/><stop offset="1" stop-color="#C62828"/></linearGradient>'
-          + '<clipPath id="c"><rect x="6" y="6" width="52" height="52" rx="5"/></clipPath></defs>'
-          + '<rect x="6" y="6" width="52" height="52" rx="5" fill="url(#a)" stroke="#A0A0A0" stroke-width="1"/>'
-          + '<rect x="6" y="6" width="52" height="10" fill="url(#b)" clip-path="url(#c)"/>'
-          + '<text x="32" y="44" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="900" fill="#1A1A1A" text-anchor="middle">' + n + '</text></svg>'
+        return '<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 128 128">' + '<defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#7C83FF"/><stop offset="1" stop-color="#4B4FD1"/></linearGradient></defs>' + '<rect x="4" y="4" width="120" height="120" rx="32" fill="url(#g)"/>' + '<rect x="30" y="22" width="10" height="18" rx="5" fill="#fff"/><rect x="88" y="22" width="10" height="18" rx="5" fill="#fff"/>' + '<rect x="22" y="34" width="84" height="8" rx="4" fill="#fff" opacity=".35"/>' + '<text x="64" y="98" font-family="Arial, Helvetica, sans-serif" font-size="58" font-weight="700" fill="#fff" text-anchor="middle">' + n + '</text></svg>'
     }
 
     readonly property real padX:   Math.round(width * 0.06)

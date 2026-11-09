@@ -1,43 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="8.420 11.670 47.159 47.159" fill="none">
-  <defs>
-    
-    <radialGradient id="ballGrad" cx="35%" cy="35%" r="65%">
-      <stop offset="0%" stop-color="#FF6B6B" />
-      <stop offset="50%" stop-color="#D61818" />
-      <stop offset="100%" stop-color="#6E0000" />
-    </radialGradient>
-
-    
-    <linearGradient id="stickGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#6A6A6A" />
-      <stop offset="50%" stop-color="#C2C2C2" />
-      <stop offset="100%" stop-color="#555555" />
-    </linearGradient>
-
-    
-    <linearGradient id="baseGrad" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#6B6B6B" />
-      <stop offset="100%" stop-color="#212121" />
-    </linearGradient>
-
-    
-    <filter id="dropShadow" x="-20%" y="-20%" width="140%" height="140%">
-      <feDropShadow dx="0" dy="2" stdDeviation="1.5" flood-color="#000" flood-opacity="0.8" />
-    </filter>
-  </defs>
-
-  
-  <rect x="14" y="44" width="36" height="12" rx="3.5" fill="url(#baseGrad)" filter="url(#dropShadow)" />
-
-  
-  <rect x="15" y="44.5" width="34" height="1" rx="0.5" fill="#888888" opacity="0.6" />
-
-  
-  <rect x="39" y="42" width="6" height="3" rx="1.5" fill="#C91A1A" />
-
-  
-  <rect x="30" y="27" width="4" height="18" fill="url(#stickGrad)" />
-
-  
-  <circle cx="32" cy="22" r="7.5" fill="url(#ballGrad)" filter="url(#dropShadow)" />
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+<defs><linearGradient id="garcade" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2DD4BF"/><stop offset="1" stop-color="#0E8F83"/></linearGradient>
+<linearGradient id="harcade" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".22"/><stop offset=".5" stop-color="#fff" stop-opacity="0"/></linearGradient></defs>
+<rect x="4" y="4" width="120" height="120" rx="32" fill="url(#garcade)"/>
+<rect x="4" y="4" width="120" height="120" rx="32" fill="url(#harcade)"/>
+<g fill="none" stroke="#fff" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"><path d="M38 50h52a16 16 0 0 1 16 17l-2 14a10 10 0 0 1-17 6l-8-9H49l-8 9a10 10 0 0 1-17-6l-2-14a16 16 0 0 1 16-17z" fill="#fff" stroke="none"/><g stroke="#0E8F83" stroke-width="6"><path d="M46 62v12M40 68h12"/></g><circle cx="82" cy="62" r="4" fill="#0E8F83" stroke="none"/><circle cx="92" cy="72" r="4" fill="#0E8F83" stroke="none"/></g>
 </svg>
