@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 64 64">
+  <defs>
+    <style>
+      .cls-1{fill:url(#linear-gradient-1)}
+      .cls-2{fill:#ffffff}
+    </style>
+    <linearGradient id="linear-gradient-1" x1="32" y1="3.84" x2="32" y2="60.16" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2b93ee"/>
+      <stop offset="1" stop-color="#1a6ce6"/>
+    </linearGradient>
+    <mask id="mask-1" maskUnits="userSpaceOnUse" color-interpolation="sRGB" x="-100000" y="-100000" width="200000" height="200000">
+    <path d="M11.395 3.84 L52.605 3.84 C56.777 3.84 60.16 7.223 60.16 11.395 L60.16 52.605 C60.16 56.777 56.777 60.16 52.605 60.16 L11.395 60.16 C7.223 60.16 3.84 56.777 3.84 52.605 L3.84 11.395 C3.84 7.223 7.223 3.84 11.395 3.84 Z" class="cls-2"/>
+    </mask>
+  </defs>
+  <title>bluetooth.svg</title>
+  <g id="Layer_1" data-name="Layer 1">
+    <path d="M12.769 3.84 L51.231 3.84 C56.162 3.84 60.16 7.838 60.16 12.769 L60.16 51.231 C60.16 56.162 56.162 60.16 51.231 60.16 L12.769 60.16 C7.838 60.16 3.84 56.162 3.84 51.231 L3.84 12.769 C3.84 7.838 7.838 3.84 12.769 3.84 Z" class="cls-1"/>
+    <g mask="url(#mask-1)">
+      <g>
+        <path d="M30.209 13.81 C30.209 12.089 32.193 11.126 33.544 12.191 L45.356 21.495 C46.421 22.334 46.399 23.956 45.311 24.766 L35.361 32.175 L45.304 39.541 C46.406 40.358 46.417 42.003 45.326 42.835 L33.519 51.836 C32.162 52.87 30.209 51.903 30.209 50.198 L30.209 36.012 L18.705 44.579 L16.449 41.549 L29.026 32.183 L16.452 22.869 L18.701 19.834 L30.209 28.358 Z M33.986 17.348 L33.986 28.49 L41.257 23.075 Z M33.986 35.858 L33.986 46.73 L41.219 41.216 Z" class="cls-2"/>
+      </g>
+    </g>
+  </g>
+</svg>

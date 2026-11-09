@@ -1,0 +1,19 @@
+#!/bin/bash
+# Start of Volta OS from the AppImage: prepares a writable folder and starts.
+HERE="$(dirname "$(readlink -f "$0")")"
+SRC="$HERE/usr/share/volta_os"
+DATA="${XDG_DATA_HOME:-$HOME/.local/share}/volta_os"
+mkdir -p "$DATA/data"
+# The Python scripts must be COPIED (not linked): they work out the data folder by themselves
+# from their own location, and with a link they would end up inside the AppImage (read-only).
+rm -rf "$DATA/services" "$DATA/scripts"
+cp -r "$SRC/services" "$SRC/scripts" "$DATA/"
+# large read-only parts: links renewed at every start (the AppImage path changes)
+for d in assets third_party i18n; do
+    ln -sfn "$SRC/$d" "$DATA/$d"
+done
+[ -e "$DATA/keys.env.example" ] || cp "$SRC/keys.env.example" "$DATA/"
+export VOLTA_DIR="$DATA"
+# No LD_LIBRARY_PATH: the package's libraries have their own internal path, and that
+# variable would be inherited by gamescope, Wine, flatpak and Python, breaking them.
+exec "$HERE/usr/bin/VoltaOS" "$@"

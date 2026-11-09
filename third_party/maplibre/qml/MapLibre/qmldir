@@ -1,0 +1,7 @@
+module MapLibre
+linktarget QMapLibre::PluginQml
+plugin declarative_maplibre
+classname MapLibreQmlModule
+typeinfo declarative_maplibre.qmltypes
+prefer :/MapLibre/
+depends QtQuick

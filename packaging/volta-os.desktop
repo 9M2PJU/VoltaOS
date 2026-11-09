@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Volta OS
+Comment=In-car interface
+Exec=VoltaOS
+Icon=volta-os
+Categories=Utility;
+Terminal=false

@@ -1,0 +1,25 @@
+# Python dependencies of the Volta OS services
+#   pip install -r requirements.txt
+# (on recent Debian/Ubuntu: add --break-system-packages or use a venv)
+
+# ── base (all services) ────────────────────────────────────────────
+Flask>=3.0
+requests>=2.31
+Pillow>=10.0
+
+# ── maps (map_proxy.py) ──────────────────────────────────────
+segno>=1.6
+
+# ── music, podcasts ───────────────────────────────────────────────
+ytmusicapi>=1.8
+yt-dlp>=2025.1.1
+python-mpv>=1.0
+spotipy>=2.24
+spotifyscraper>=3.9
+
+# ── Music app: tags and covers of audio files (local_music_service.py) ──
+mutagen>=1.47
+
+# ── phone, Wi-Fi, Bluetooth (D-Bus) ────────────────────────────────
+dbus-next>=0.2.3
+vobject>=0.9

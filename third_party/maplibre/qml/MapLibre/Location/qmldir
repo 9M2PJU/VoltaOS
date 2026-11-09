@@ -1,0 +1,8 @@
+module MapLibre.Location
+linktarget QMapLibre::PluginQmlLocation
+plugin declarative_maplibre_locationplugin
+classname MapLibreQmlLocationModule
+typeinfo declarative_maplibre_locationplugin.qmltypes
+prefer :/MapLibre/Location/
+depends QtQuick
+depends QtLocation

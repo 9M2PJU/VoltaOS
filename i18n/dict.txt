@@ -1,0 +1,736 @@
+# Translations: English source§Italian§Spanish§French§Portuguese  (\n = newline; "text|comment" = with disambiguation)
+   Save without verifying§   Salva senza verificare§   Guardar sin verificar§   Enregistrer sans vérifier§   Guardar sem verificar
+  (max 2)§  (max 2)§  (máx. 2)§  (max 2)§  (máx. 2)
+  ·  optional§  ·  facoltativo§  ·  opcional§  ·  facultatif§  ·  opcional
+ (same range as the automatic theme, in Display)§ (stessa fascia del tema automatico, in Display)§ (misma franja que el tema automático, en Pantalla)§ (même plage que le thème automatique, dans Affichage)§ (mesmo intervalo do tema automático, em Ecrã)
+ albums§ album§ álbumes§ albums§ álbuns
+ closed unexpectedly.§ si è chiuso inaspettatamente.§ se cerró inesperadamente.§ s'est fermé de façon inattendue.§ fechou inesperadamente.
+ connect your phone to the car via Bluetooth.§ collega il telefono all'auto via Bluetooth.§ conecta el teléfono al coche por Bluetooth.§ connectez le téléphone à la voiture en Bluetooth.§ ligue o telemóvel ao carro por Bluetooth.
+ D AGO§ G FA§ D§ J§ D
+ days ago§ giorni fa§ días§ jours§ dias
+ didn't start. Try again.§ non si è avviato. Riprova.§ no se inició. Inténtalo de nuevo.§ n'a pas démarré. Réessayez.§ não iniciou. Tente novamente.
+ EPISODES§ EPISODI§ EPISODIOS§ ÉPISODES§ EPISÓDIOS
+ for "§ per "§ para "§ pour "§ para "
+ games found in Bottles§ giochi trovati in Bottles§ juegos encontrados en Bottles§ jeux trouvés dans Bottles§ jogos encontrados no Bottles
+ HR AGO§ ORA FA§ H§ H§ H
+ HRS AGO§ ORE FA§ H§ H§ H
+ MIN AGO§ MIN FA§ MIN§ MIN§ MIN
+ min left§ min rimasti§ min restantes§ min restantes§ min restantes
+ or connect a USB drive.§ oppure collega una chiavetta USB.§ o conecta una memoria USB.§ ou branchez une clé USB.§ ou conecte um pen drive.
+ selected  ↗§ selezionate  ↗§ seleccionados  ↗§ sélectionnées  ↗§ selecionados  ↗
+ tracks§ brani§ canciones§ titres§ faixas
++ Create new preset...§+ Crea nuova preimpostazione...§+ Crear nuevo preajuste...§+ Créer un nouveau préréglage...§+ Criar nova predefinição...
+, limit §, limite §, límite §, limite §, limite 
+1 game found in Bottles§1 gioco trovato in Bottles§1 juego encontrado en Bottles§1 jeu trouvé dans Bottles§1 jogo encontrado no Bottles
+1080p is the sharpest; 720p and 480p are lighter on the computer. Android Auto only accepts these three sizes.§1080p è la più nitida; 720p e 480p pesano meno sul computer. Android Auto accetta solo queste tre misure.§1080p es la más nítida; 720p y 480p pesan menos en el ordenador. Android Auto solo acepta estas tres medidas.§Le 1080p est la plus nette ; les 720p et 480p sont plus légers pour l'ordinateur. Android Auto n'accepte que ces trois tailles.§1080p é a mais nítida; 720p e 480p pesam menos no computador. O Android Auto só aceita estas três medidas.
+32 characters§32 caratteri§32 caracteres§32 caractères§32 caracteres
+32-character key§chiave di 32 caratteri§clave de 32 caracteres§clé de 32 caractères§chave de 32 caracteres
+3D car§Auto 3D§§§
+3D car (*.glb *.gltf *.fbx *.obj *.dae *.blend)§Auto 3D (*.glb *.gltf *.fbx *.obj *.dae *.blend)§§§
+A conversion is already in progress.§C'e' gia' una conversione in corso.§§§
+Active from §Attive dalle §Activas desde las §Actives de §Ativas das 
+Add§Aggiungi§Añadir§Ajouter§Adicionar
+Add stop§Aggiungi tappa§Añadir parada§Ajouter une étape§Adicionar paragem
+Add to a playlist§Aggiungi a una playlist§Añadir a una lista§Ajouter à une playlist§Adicionar a uma playlist
+Add to queue§Aggiungi in coda§Añadir a la cola§Ajouter à la file§Adicionar à fila
+Added as next track§Aggiunto come prossimo brano§Añadido como siguiente canción§Ajouté comme titre suivant§Adicionado como faixa seguinte
+Added by you§Aggiunti da te§Añadidas por ti§Ajoutés par vous§Adicionadas por si
+Added to §Aggiunto a §Añadido a §Ajouté à §Adicionado a 
+Added to apps: you'll find it at the top of the app menu§Aggiunta alle app: la trovi in alto nel menu delle app§Añadida a las apps: la encontrarás arriba en el menú de apps§Ajoutée aux applications : elle se trouve en haut du menu des applications§Adicionada às aplicações: encontra-a no topo do menu de aplicações
+Added to queue · §Aggiunto alla coda · §Añadido a la cola · §Ajouté à la file · §Adicionado à fila · 
+ALBUM§ALBUM§ÁLBUM§ALBUM§ÁLBUM
+Albums§Album§Álbumes§Albums§Álbuns
+All categories§Tutte le categorie§Todas las categorías§Toutes les catégories§Todas as categorias
+All day§Tutto il giorno§Todo el día§Toute la journée§Todo o dia
+All episodes (§Tutti gli episodi (§Todos los episodios (§Tous les épisodes (§Todos os episódios (
+All files (*)§Tutti i file (*)§§§
+All set§Tutto pronto§Todo listo§Tout est prêt§Tudo pronto
+All songs§Tutti i brani§Todas las canciones§Tous les titres§Todas as músicas
+Ambient light color§Colore luci ambientali§Color de luces ambientales§Couleur de l'éclairage d'ambiance§Cor das luzes ambiente
+Ambient lights§Luci ambientali§Luces ambientales§Éclairage d'ambiance§Luzes ambiente
+ambient lights color led interior brightness§luci ambientali colore led ambient interno luminosita§luces ambientales color led interior brillo§éclairage d'ambiance couleur led intérieur luminosité§luzes ambiente cor led interior brilho
+android auto carplay fit fill adapt fullscreen§android auto carplay adattamento riempi adatta schermo intero§android auto carplay ajuste rellenar adaptar pantalla completa§android auto carplay adaptation remplir adapter plein écran§android auto carplay ajuste preencher adaptar ecrã inteiro
+android auto carplay theme§android auto carplay tema§android auto carplay tema§android auto carplay thème§android auto carplay tema
+android auto density dpi size§android auto densita dpi dimensione§android auto densidad dpi tamaño§android auto densité dpi taille§android auto densidade dpi tamanho
+android auto resolution 480p 720p 1080p§android auto risoluzione 480p 720p 1080p§android auto resolución 480p 720p 1080p§android auto résolution 480p 720p 1080p§android auto resolução 480p 720p 1080p
+Android Auto: density (DPI)§Android Auto: densità (DPI)§Android Auto: densidad (DPI)§Android Auto : densité (DPI)§Android Auto: densidade (DPI)
+Android Auto: resolution§Android Auto: risoluzione§Android Auto: resolución§Android Auto : résolution§Android Auto: resolução
+Android Auto: screen fit§Android Auto: adattamento schermo§Android Auto: ajuste de pantalla§Android Auto : adaptation de l'écran§Android Auto: ajuste do ecrã
+Android Auto: theme§Android Auto: tema§Android Auto: tema§Android Auto : thème§Android Auto: tema
+Answer§Rispondi§Responder§Répondre§Atender
+App§App§App§Application§Aplicação
+Appearance§Aspetto§Aspecto§Apparence§Aspeto
+Appearance (light / dark / automatic theme)§Aspetto (tema chiaro / scuro / automatico)§Aspecto (tema claro / oscuro / automático)§Apparence (thème clair / sombre / automatique)§Aspeto (tema claro / escuro / automático)
+Applies immediately. "Automatic" follows this interface's light/dark theme.§Si applica subito. "Automatico" segue il tema chiaro/scuro di questa interfaccia.§Se aplica al instante. "Automático" sigue el tema claro/oscuro de esta interfaz.§S'applique immédiatement. « Automatique » suit le thème clair/sombre de cette interface.§Aplica-se de imediato. "Automático" segue o tema claro/escuro desta interface.
+apps hide drawer applications show§app nascondi drawer applicazioni mostra§apps ocultar cajón aplicaciones mostrar§applications masquer tiroir apps afficher§aplicações ocultar gaveta apps mostrar
+April§aprile§abril§avril§abril
+Arcade games (show / hide)§Giochi dell'Arcade (mostra / nascondi)§Juegos del Arcade (mostrar / ocultar)§Jeux de l'Arcade (afficher / masquer)§Jogos do Arcade (mostrar / ocultar)
+arcade games hide show list bottles§arcade giochi nascondi mostra lista bottles§arcade juegos ocultar mostrar lista bottles§arcade jeux masquer afficher liste bottles§arcade jogos ocultar mostrar lista bottles
+Are the wheels turning? If you cannot see them, rotate the car with your finger.§Le ruote girano? Se non le vedi, ruota l'auto col dito.§§§
+ARTIST§ARTISTA§ARTISTA§ARTISTE§ARTISTA
+Artist§Artista§Artista§Artiste§Artista
+Artists§Artisti§Artistas§Artistes§Artistas
+At least one language always stays active§Almeno una lingua resta sempre attiva§Siempre queda activo al menos un idioma§Au moins une langue reste toujours active§Pelo menos um idioma fica sempre ativo
+Audio balance§Bilanciamento audio§Balance de audio§Balance audio§Equilíbrio de áudio
+Audio input (microphone)§Ingresso audio (microfono)§Entrada de audio (micrófono)§Entrée audio (microphone)§Entrada de áudio (microfone)
+Audio output§Uscita audio§Salida de audio§Sortie audio§Saída de áudio
+audio output speakers device§uscita audio casse altoparlanti dispositivo§salida audio altavoces dispositivo§sortie audio haut-parleurs appareil§saída áudio altifalantes dispositivo
+August§agosto§agosto§août§agosto
+Auto§Auto§Auto§Auto§Auto
+Auto chooses based on the resolution (240 at 1080p). Lower = more content on screen, small icons and text; higher = everything bigger.§Auto sceglie in base alla risoluzione (240 a 1080p). Più basso = più contenuto sullo schermo, icone e testi piccoli; più alto = tutto più grande.§Auto elige según la resolución (240 a 1080p). Más bajo = más contenido en pantalla, iconos y textos pequeños; más alto = todo más grande.§Auto choisit selon la résolution (240 en 1080p). Plus bas = plus de contenu à l'écran, icônes et textes petits ; plus haut = tout est plus grand.§Auto escolhe consoante a resolução (240 a 1080p). Mais baixo = mais conteúdo no ecrã, ícones e textos pequenos; mais alto = tudo maior.
+Automatic§Automatico§Automático§Automatique§Automático
+Automatic theme§Tema automatico§Tema automático§Thème automatique§Tema automático
+Automatic theme (time range)§Tema automatico (fascia oraria)§Tema automático (franja horaria)§Thème automatique (plage horaire)§Tema automático (intervalo horário)
+Available§Disponibile§Disponible§Disponible§Disponível
+Available networks§Reti disponibili§Redes disponibles§Réseaux disponibles§Redes disponíveis
+Avoid ferries§Evita traghetti§Evitar ferris§Éviter les ferries§Evitar ferries
+Avoid tolls§Evita pedaggi§Evitar peajes§Éviter les péages§Evitar portagens
+Back§Indietro§Atrás§Retour§Voltar
+Balance§Bilanciamento§Balance§Balance§Equilíbrio
+balance fader left right front rear§bilanciamento balance fader sinistra destra avanti dietro§balance fader izquierda derecha delante detrás§balance fader gauche droite avant arrière§equilíbrio balance fader esquerda direita frente trás
+Before the device can be added, make sure it's on and discoverable.§Prima che sia possibile aggiungere il dispositivo, assicurati che sia acceso e rilevabile.§Antes de poder añadir el dispositivo, asegúrate de que esté encendido y visible.§Avant de pouvoir ajouter l'appareil, assurez-vous qu'il est allumé et visible.§Antes de poder adicionar o dispositivo, certifique-se de que está ligado e visível.
+Blender cannot open this file.§Blender non riesce ad aprire questo file.§§§
+blue light night filter warm eyes§luce blu notturna filtro caldo occhi§luz azul nocturna filtro cálido ojos§lumière bleue nuit filtre chaud yeux§luz azul noturna filtro quente olhos
+Bluetooth§Bluetooth§Bluetooth§Bluetooth§Bluetooth
+bluetooth devices phone pair§bluetooth dispositivi telefono associa accoppia§bluetooth dispositivos teléfono emparejar§bluetooth appareils téléphone associer§bluetooth dispositivos telemóvel emparelhar
+Bluetooth settings§Impostazioni Bluetooth§Ajustes de Bluetooth§Réglages Bluetooth§Definições de Bluetooth
+Brightness§Luminosità§Brillo§Luminosité§Brilho
+brightness screen display§luminosita schermo brillantezza display§brillo pantalla display§luminosité écran affichage§brilho ecrã display
+Browser§Browser§Navegador§Navigateur§Navegador
+Calendar§Calendario§Calendario§Calendrier§Calendário
+Calling…§Sta chiamando…§Está llamando…§Appelle…§A ligar…
+Calls§Chiamate§Llamadas§Appels§Chamadas
+Can't connect: §Non riesco a connettermi: §No puedo conectarme: §Connexion impossible : §Não consigo ligar: 
+Cancel§Annulla§Cancelar§Annuler§Cancelar
+Cancel and keep the current car§Annulla e tieni l'auto attuale§§§
+Car adjust§Regola auto§§§
+Car meshes§Mesh dell'auto§§§
+CarPlay / Android Auto§CarPlay / Android Auto§CarPlay / Android Auto§CarPlay / Android Auto§CarPlay / Android Auto
+Categories§Categorie§Categorías§Catégories§Categorias
+CATEGORY§CATEGORIA§CATEGORÍA§CATÉGORIE§CATEGORIA
+Category unavailable at the moment§Categoria non disponibile al momento§Categoría no disponible por ahora§Catégorie indisponible pour le moment§Categoria indisponível de momento
+Chance of rain§Probabilità di pioggia§Probabilidad de lluvia§Probabilité de pluie§Probabilidade de chuva
+Change the color of the vehicle's exterior and adjust the paint style.§Cambia il colore dell'esterno del veicolo e adatta lo stile della vernice.§Cambia el color del exterior del vehículo y ajusta el estilo de la pintura.§Changez la couleur extérieure du véhicule et adaptez le style de peinture.§Altere a cor do exterior do veículo e ajuste o estilo da pintura.
+Chart unavailable§Classifica non disponibile§Clasificación no disponible§Classement indisponible§Classificação indisponível
+Chart unavailable at the moment.§Classifica non disponibile al momento.§Clasificación no disponible por ahora.§Classement indisponible pour le moment.§Classificação indisponível de momento.
+Charts§Classifiche§Listas de éxitos§Classements§Tabelas
+Check that this code matches the one shown on the device.§Controlla che questo codice sia uguale a quello mostrato sul dispositivo.§Comprueba que este código coincida con el mostrado en el dispositivo.§Vérifiez que ce code correspond à celui affiché sur l'appareil.§Verifique se este código é igual ao mostrado no dispositivo.
+Choose from the list§Scegli dall'elenco§§§
+Choose the 3D car file§Scegli il file dell'auto 3D§§§
+Choose the cover§Scegli la copertina§§§
+Choose the hero image§Scegli l'immagine hero§§§
+Choose which ones to show in the Arcade. Games you add in Bottles appear here by themselves.§Scegli quali mostrare nell'Arcade. I giochi che aggiungi in Bottles compaiono qui da soli.§Elige cuáles mostrar en el Arcade. Los juegos que añadas en Bottles aparecen aquí solos.§Choisissez lesquels afficher dans l'Arcade. Les jeux que vous ajoutez dans Bottles apparaissent ici tout seuls.§Escolha quais mostrar no Arcade. Os jogos que adicionar no Bottles aparecem aqui sozinhos.
+clean cleaning screen lock touch glass§pulisci pulizia schermo blocca touch vetro§limpiar limpieza pantalla bloquear táctil cristal§nettoyer nettoyage écran verrouiller tactile vitre§limpar limpeza ecrã bloquear toque vidro
+Clean the touchscreen with a soft cloth made for monitors and displays. Do not use cleaning products, wet wipes or electrostatic dry cloths.§Pulire il touchscreen con un panno morbido apposito per monitor e display. Non utilizzare detergenti, salviette umidificate o panni asciutti elettrostatici.§Limpia la pantalla táctil con un paño suave específico para monitores y pantallas. No uses detergentes, toallitas húmedas ni paños secos electrostáticos.§Nettoyez l'écran tactile avec un chiffon doux spécial écrans. N'utilisez pas de détergents, de lingettes humides ni de chiffons secs électrostatiques.§Limpe o ecrã tátil com um pano macio próprio para monitores e ecrãs. Não utilize detergentes, toalhetes húmidos nem panos secos eletrostáticos.
+Clear§Svuota§Vaciar§Vider§Limpar
+Clear sky§Sereno§Despejado§Dégagé§Limpo
+Close§Chiudi§Cerrar§Fermer§Fechar
+Cloudy§Nuvoloso§Nublado§Nuageux§Nublado
+Color§Colore§§§
+Coming up§In arrivo§Próximamente§À venir§A seguir
+Communication error with the service.§Errore di comunicazione col servizio.§Error de comunicación con el servicio.§Erreur de communication avec le service.§Erro de comunicação com o serviço.
+Confirm§Conferma§Confirmar§Confirmer§Confirmar
+Confirm selection§Conferma la selezione§§§
+Connect§Connetti§Conectar§Connecter§Ligar
+Connect another device§Connetti un altro dispositivo§Conectar otro dispositivo§Connecter un autre appareil§Ligar outro dispositivo
+Connect or change maps, search, weather and Spotify, step by step§Collega o cambia mappe, ricerca, meteo e Spotify, passo per passo§Conecta o cambia mapas, búsqueda, tiempo y Spotify, paso a paso§Connectez ou modifiez cartes, recherche, météo et Spotify, pas à pas§Ligue ou altere mapas, pesquisa, meteorologia e Spotify, passo a passo
+Connect phone§Connetti telefono§Conectar teléfono§Connecter le téléphone§Ligar telemóvel
+Connect the USB dongle§Collega il dongle USB§Conecta el dongle USB§Branchez le dongle USB§Ligue o dongle USB
+Connect your phone§Collega il telefono§Conecta el teléfono§Connectez votre téléphone§Conecte o telemóvel
+Connect your phone to the car via Bluetooth.§Collega il telefono all'auto via Bluetooth.§Conecta el teléfono al coche por Bluetooth.§Connectez le téléphone à la voiture en Bluetooth.§Ligue o telemóvel ao carro por Bluetooth.
+Connect your smartphone via Bluetooth§Connetti lo smartphone al Bluetooth§Conecta el smartphone por Bluetooth§Connectez votre smartphone en Bluetooth§Ligue o smartphone por Bluetooth
+Connected§Connesso§Conectado§Connecté§Ligado
+Connected services§Servizi collegati§Servicios conectados§Services connectés§Serviços ligados
+Connected · signal §Connesso · segnale §Conectado · señal §Connecté · signal §Ligado · sinal 
+Connected: §Collegato: §Conectado: §Connecté : §Ligado: 
+Connecting to §Connessione a §Conectando con §Connexion à §A ligar a 
+Connecting…§Connessione in corso…§Conectando…§Connexion en cours…§A ligar…
+Contacts§Contatti§Contactos§Contacts§Contactos
+Continue§Continua§Continuar§Continuer§Continuar
+Continue without§Continua senza§Continuar sin§Continuer sans§Continuar sem
+Conversion failed.§Conversione non riuscita.§§§
+Converting the model… it may take a minute.§Sto convertendo il modello… può richiedere un minuto.§§§
+Copied ✓§Copiato ✓§Copiado ✓§Copié ✓§Copiado ✓
+Copy§Copia§Copiar§Copier§Copiar
+Couldn't change the subscription§Non sono riuscito a cambiare l'iscrizione§No se pudo cambiar la suscripción§Impossible de modifier l'abonnement§Não foi possível alterar a subscrição
+Cover§Copertina§§§
+Cover: vertical image (e.g. 600×900). Hero: wide image for the big picture.§Copertina: immagine verticale (es. 600×900). Hero: immagine larga per la foto grande.§§§
+Create§Crea§Crear§Créer§Criar
+Create an account on openweathermap.org and confirm your email.§Crea un account su openweathermap.org e conferma l'email.§Crea una cuenta en openweathermap.org y confirma el correo.§Créez un compte sur openweathermap.org et confirmez l'e-mail.§Crie uma conta em openweathermap.org e confirme o email.
+Current location§Posizione attuale§Ubicación actual§Position actuelle§Localização atual
+Custom§Personalizzato§Personalizado§Personnalisé§Personalizado
+Customize§Personalizza§Personalizar§Personnaliser§Personalizar
+Damaged .glb file.§File .glb danneggiato.§§§
+Dance / Electronic§Dance / Elettronica§Dance / Electrónica§Dance / Électronique§Dance / Eletrónica
+Dark§Scuro§Oscuro§Sombre§Escuro
+DARK FROM§SCURO DALLE§OSCURO DESDE§SOMBRE DE§ESCURO DAS
+Darkens the satellite map. Auto: same hours as the automatic theme (§Scurisce la mappa satellitare. Auto: stessi orari del tema automatico (§Oscurece el mapa satélite. Auto: mismas horas que el tema automático (§Assombrit la carte satellite. Auto : mêmes horaires que le thème automatique (§Escurece o mapa de satélite. Auto: mesmo horário do tema automático (
+Debug§Debug§Depuración§Débogage§Depuração
+debug system information tools§debug sistema informazioni strumenti§depuración sistema información herramientas§débogage système informations outils§depuração sistema informações ferramentas
+December§dicembre§diciembre§décembre§dezembro
+Decline§Rifiuta§Rechazar§Refuser§Recusar
+Degrees§Gradi§Grados§Degrés§Graus
+Delete§Cancella§Borrar§Effacer§Limpar
+Density (DPI)§Densità (DPI)§Densidad (DPI)§Densité (DPI)§Densidade (DPI)
+Destination§Destinazione§Destino§Destination§Destino
+Device§Dispositivo§Dispositivo§Appareil§Dispositivo
+Devices§Dispositivi§Dispositivos§Appareils§Dispositivos
+Direct tuning§Sintonizzazione diretta§Sintonización directa§Syntonisation directe§Sintonização direta
+Disconnect§Disconnetti§Desconectar§Déconnecter§Desligar
+Discover§Scopri§Descubre§Découvrir§Descobrir
+Dismiss§Ignora§Ignorar§Ignorer§Ignorar
+Display§Display§Pantalla§Affichage§Ecrã
+Does your model have openable doors, hood and trunk?§Il tuo modello ha portiere, cofano e bagagliaio apribili?§§§
+Don't include toll roads in the route§Non includere strade a pedaggio nel percorso§No incluir carreteras de peaje en la ruta§Ne pas inclure de routes à péage dans l'itinéraire§Não incluir estradas com portagem no percurso
+Don't use ferry connections§Non usare collegamenti via traghetto§No usar conexiones en ferri§Ne pas utiliser de liaisons par ferry§Não usar ligações por ferry
+Done§Fine§Hecho§Terminé§Concluído
+Done!§Fatto!§§§
+Dongle unavailable§Dongle non disponibile§Dongle no disponible§Dongle indisponible§Dongle indisponível
+Drag the buttons on the car (tap to finish)§Trascina i tasti sull'auto (tocca per finire)§§§
+Draw§Disegna§Dibujar§Dessiner§Desenhar
+Drawing saved to the album§Disegno salvato nell'album§Dibujo guardado en el álbum§Dessin enregistré dans l'album§Desenho guardado no álbum
+Driving position§Posizione di guida§Posición de conducción§Position de conduite§Posição de condução
+Driving position (left / right)§Posizione di guida (sinistra / destra)§Posición de conducción (izquierda / derecha)§Position de conduite (gauche / droite)§Posição de condução (esquerda / direita)
+driving right left mirror interface steering wheel§guida destra sinistra specchia interfaccia mirror volante§conducción derecha izquierda espejo interfaz volante§conduite droite gauche miroir interface volant§condução direita esquerda espelho interface volante
+Drizzle§Pioviggine§Llovizna§Bruine§Chuvisco
+E.g. Rock, Deep bass…§Es. Rock, Bassi profondi…§P. ej. Rock, Graves profundos…§Ex. Rock, Basses profondes…§Ex. Rock, Graves profundos…
+Edit§Modifica§Editar§Modifier§Editar
+Edit route§Modifica percorso§Editar ruta§Modifier l'itinéraire§Editar percurso
+Emissions§Emissioni§Emisiones§Émissions§Emissões
+Emissions test mode§Modalità di test delle emissioni§Modo de prueba de emisiones§Mode test des émissions§Modo de teste de emissões
+End§Termina§Finalizar§Terminer§Terminar
+End trip§Termina viaggio§Terminar viaje§Terminer le trajet§Terminar viagem
+ends after the track (§finisce dopo il brano (§termina tras la canción (§se termine après le titre (§termina após a faixa (
+ends too early (§finisce troppo presto (§termina demasiado pronto (§se termine trop tôt (§termina demasiado cedo (
+Episodes§Episodi§Episodios§Épisodes§Episódios
+Episodes you bookmark appear here.§Gli episodi che segni col segnalibro compaiono qui.§Los episodios que marques aparecen aquí.§Les épisodes que vous mettez en favori apparaissent ici.§Os episódios que marcar aparecem aqui.
+Episodes you listen to appear here.§Gli episodi che ascolti compaiono qui.§Los episodios que escuches aparecen aquí.§Les épisodes que vous écoutez apparaissent ici.§Os episódios que ouvir aparecem aqui.
+Equalizer§Equalizzatore§Ecualizador§Égaliseur§Equalizador
+equalizer eq bass treble preset sound§equalizzatore eq bassi alti preset preimpostazione suono§ecualizador eq graves agudos preajuste sonido§égaliseur eq basses aigus préréglage son§equalizador eq graves agudos predefinição som
+Equalizer unavailable: install EasyEffects and create a preset.§Equalizzatore non disponibile: installa EasyEffects e crea un preset.§Ecualizador no disponible: instala EasyEffects y crea un preajuste.§Égaliseur indisponible : installez EasyEffects et créez un préréglage.§Equalizador indisponível: instale o EasyEffects e crie uma predefinição.
+Eraser§Gomma da\ncancellare§Goma de\nborrar§Gomme à\neffacer§Borracha
+error§errore§error§erreur§erro
+Exit in §Uscita tra §Salida en §Sortie dans §Saída em 
+Explore§Esplora§Explorar§Explorer§Explorar
+Explore is unavailable at the moment§Esplora non disponibile al momento§Explorar no está disponible por ahora§Explorer est indisponible pour le moment§Explorar não está disponível de momento
+Favorites§Preferiti§Favoritos§Favoris§Favoritos
+Featured episodes§Episodi in evidenza§Episodios destacados§Épisodes à la une§Episódios em destaque
+Featured · §In evidenza · §Destacados · §À la une · §Em destaque · 
+February§febbraio§febrero§février§fevereiro
+ferries ferry route avoid§traghetti traghetto percorso evita§ferris ferri ruta evitar§ferries ferry itinéraire éviter§ferries ferry percurso evitar
+few lines (§poche righe (§pocas líneas (§peu de lignes (§poucas linhas (
+File not found.§File non trovato.§§§
+File not readable.§File non leggibile.§§§
+Fill§Riempi§Rellenar§Remplir§Preencher
+Find Bluetooth GPS§Cerca GPS Bluetooth§Buscar GPS Bluetooth§Chercher un GPS Bluetooth§Procurar GPS Bluetooth
+Fit in the small panel§Adattamento nel pannello piccolo§Ajuste en el panel pequeño§Adaptation dans le petit panneau§Ajuste no painel pequeno
+Fog§Nebbia§Niebla§Brouillard§Nevoeiro
+Forget§Dimentica§Olvidar§Oublier§Esquecer
+Friday§Venerdì§Viernes§Vendredi§Sexta-feira
+From phone§Dal telefono§Desde el teléfono§Depuis le téléphone§Do telemóvel
+Full chart§Tutta la classifica§Clasificación completa§Classement complet§Classificação completa
+Fullscreen fit§Adattamento a schermo intero§Ajuste a pantalla completa§Adaptation en plein écran§Ajuste em ecrã inteiro
+Fullscreen map§Schermo intero mappa§Mapa a pantalla completa§Carte en plein écran§Mapa em ecrã inteiro
+fullscreen map model s x navigation§schermo intero mappa modello s x navigazione fullscreen§pantalla completa mapa modelo s x navegación§plein écran carte modèle s x navigation§ecrã inteiro mapa modelo s x navegação
+Fullscreen mode (Model S/X style)§Modalità schermo intero (stile Model S/X)§Modo pantalla completa (estilo Model S/X)§Mode plein écran (style Model S/X)§Modo de ecrã inteiro (estilo Model S/X)
+Games§Giochi§Juegos§Jeux§Jogos
+Gas station§Stazione di servizio§Gasolinera§Station-service§Posto de combustível
+Gas stations§Stazioni di servizio§Gasolineras§Stations-service§Postos de combustível
+Gas stations nearby§Stazioni di servizio vicine§Gasolineras cercanas§Stations-service à proximité§Postos de combustível próximos
+Glossy§Lucida§Brillante§Brillante§Brilhante
+Go§Vai§Ir§Aller§Ir
+Good§Buona§Buena§Bonne§Boa
+GPS receiver§Ricevitore GPS§Receptor GPS§Récepteur GPS§Recetor GPS
+Guest§Ospite§Invitado§Invité§Convidado
+Guided setup§Configurazione guidata§Configuración guiada§Configuration guidée§Configuração guiada
+Guided setup (service keys)§Configurazione guidata (chiavi dei servizi)§Configuración guiada (claves de servicios)§Configuration guidée (clés des services)§Configuração guiada (chaves dos serviços)
+guided setup keys api mapbox spotify tomtom weather services connect§configurazione guidata chiavi api mapbox spotify tomtom meteo servizi collega§configuración guiada claves api mapbox spotify tomtom tiempo servicios conectar§configuration guidée clés api mapbox spotify tomtom météo services connecter§configuração guiada chaves api mapbox spotify tomtom meteorologia serviços ligar
+Hazardous§Pericolosa§Peligrosa§Dangereuse§Perigosa
+Headers captured but saving failed, try again.§Header catturati ma salvataggio fallito, riprova.§Encabezados capturados pero el guardado falló, inténtalo de nuevo.§En-têtes capturés mais l'enregistrement a échoué, réessayez.§Cabeçalhos capturados mas a gravação falhou, tente novamente.
+Heading§Direzione§Dirección§Direction§Direção
+Here's what you've connected. Tap a service to change it; you can also find it in Settings › System.§Ecco cosa hai collegato. Tocca un servizio per cambiarlo; lo trovi anche in Impostazioni › Sistema.§Esto es lo que has conectado. Toca un servicio para cambiarlo; también lo encuentras en Ajustes › Sistema.§Voici ce que vous avez connecté. Touchez un service pour le modifier ; vous le retrouvez aussi dans Réglages › Système.§Eis o que ligou. Toque num serviço para o alterar; também o encontra em Definições › Sistema.
+Hide apps§Nascondi app§Ocultar apps§Masquer les applications§Ocultar aplicações
+Hide the apps you don't use: they disappear from the drawer but stay installed, and you can always bring them back from here.§Nascondi le app che non usi: spariscono dal drawer ma restano installate, e puoi sempre farle ricomparire da qui.§Oculta las apps que no uses: desaparecen del cajón pero siguen instaladas, y siempre puedes volver a mostrarlas desde aquí.§Masquez les applications que vous n'utilisez pas : elles disparaissent du tiroir mais restent installées, et vous pouvez toujours les faire réapparaître d'ici.§Oculte as aplicações que não usa: desaparecem da gaveta mas continuam instaladas, e pode sempre voltar a mostrá-las aqui.
+History§Cronologia§Historial§Historique§Histórico
+Home|shortcut§Casa§Casa§Domicile§Casa
+Home§Home§Inicio§Accueil§Início
+Home set§Casa impostata§Casa establecida§Domicile défini§Casa definida
+Hood§Cofano§§§
+Host§Host§Presentador§Animateur§Apresentador
+Hosts and guests§Host e ospiti§Presentadores e invitados§Animateurs et invités§Apresentadores e convidados
+How far it opens§Quanto si apre§§§
+Humidity§Umidità§Humedad§Humidité§Humidade
+I cannot start Blender.§Non riesco ad avviare Blender.§§§
+I could not find this part on my own. Choose it from the mesh list, or skip if the car does not have it.§Non ho trovato questo pezzo da solo. Sceglilo tu dall'elenco delle mesh, oppure salta se l'auto non ce l'ha.§§§
+I don't know§Non lo so§§§
+Icon§Icona§Icono§Icône§Ícone
+If you are not sure, choose "I don't know": we will try moving each part together.§Se non sei sicuro, scegli "Non lo so": proviamo insieme a muovere ogni pezzo.§§§
+Images (*.png *.jpg *.jpeg *.webp)§Immagini (*.png *.jpg *.jpeg *.webp)§§§
+In Bottles: create a «Gaming» bottle, install the game and add it with «Add shortcut». Then tap Refresh.§In Bottles: crea una bottiglia «Gaming», installa il gioco e aggiungilo con «Aggiungi collegamento». Poi tocca Aggiorna.§En Bottles: crea una botella «Gaming», instala el juego y añádelo con «Añadir acceso directo». Luego toca Actualizar.§Dans Bottles : créez une bouteille « Gaming », installez le jeu et ajoutez-le avec « Ajouter un raccourci ». Puis touchez Actualiser.§No Bottles: crie uma garrafa «Gaming», instale o jogo e adicione-o com «Adicionar atalho». Depois toque em Atualizar.
+In the app you created open «Settings» and copy the Client ID and Client secret.§Nell'app creata apri «Settings» e copia Client ID e Client secret.§En la app creada abre «Settings» y copia Client ID y Client secret.§Dans l'application créée, ouvrez « Settings » et copiez le Client ID et le Client secret.§Na aplicação criada abra «Settings» e copie o Client ID e o Client secret.
+In the car§In auto§En el coche§En voiture§No carro
+In the dashboard open «Keys»: copy the ready-made key.§Nella dashboard apri «Keys»: copia la chiave già pronta.§En el panel abre «Keys»: copia la clave ya preparada.§Dans le tableau de bord, ouvrez « Keys » : copiez la clé déjà prête.§No painel abra «Keys»: copie a chave já criada.
+In «Account › Keys» copy the «Default key».§In «Account › Keys» copia la chiave «Default key».§En «Account › Keys» copia la «Default key».§Dans « Account › Keys », copiez la « Default key ».§Em «Account › Keys» copie a «Default key».
+Incoming call§Chiamata in arrivo§Llamada entrante§Appel entrant§Chamada recebida
+Input§Ingresso§Entrada§Entrée§Entrada
+Input device§Dispositivo d'ingresso§Dispositivo de entrada§Périphérique d'entrée§Dispositivo de entrada
+input microphone device audio§ingresso microfono dispositivo audio input§entrada micrófono dispositivo audio§entrée microphone appareil audio§entrada microfone dispositivo áudio
+Install it from the Software app (search «Bottles») or from the terminal:§Installalo dall'app Software (cerca «Bottles») oppure da terminale:§Instálalo desde la app Software (busca «Bottles») o desde el terminal:§Installez-le depuis l'application Logiciels (cherchez « Bottles ») ou depuis le terminal :§Instale-o a partir da aplicação Software (procure «Bottles») ou pelo terminal:
+Install it from the terminal:§Installalo da terminale:§Instálalo desde el terminal:§Installez-le depuis le terminal :§Instale-o pelo terminal:
+Installed§Installato§Instalado§Installé§Instalado
+Installs and runs Windows games§Installa ed esegue i giochi per Windows§Instala y ejecuta juegos de Windows§Installe et exécute les jeux Windows§Instala e executa jogos do Windows
+Invalid .glb file.§File .glb non valido.§§§
+Is the pink part the body? If you cannot see it, rotate the car with your finger.§Il pezzo rosa è la carrozzeria? Se non lo vedi, ruota l'auto col dito.§§§
+It weighs about %1 MB and has about %2 thousand triangles: the interface may become slow. You can lighten it (less detail and smaller textures), but this does not guarantee the best display.§Pesa circa %1 MB e ha circa %2 mila triangoli: l'interfaccia potrebbe diventare lenta. Puoi alleggerirlo (meno dettagli e texture più piccole), ma questo non garantisce la migliore visualizzazione.§§§
+item§elemento§elemento§élément§item
+January§gennaio§enero§janvier§janeiro
+July§luglio§julio§juillet§julho
+June§giugno§junio§juin§junho
+Keyboard languages§Lingue tastiera§Idiomas del teclado§Langues du clavier§Idiomas do teclado
+keyboard languages language layout§lingue tastiera lingua layout§idiomas teclado idioma distribución§langues clavier langue disposition§idiomas teclado idioma disposição
+keyboard virtual screen text§tastiera virtuale schermo testo§teclado virtual pantalla texto§clavier virtuel écran texte§teclado virtual ecrã texto
+Kids & family§Bambini e famiglia§Niños y familia§Enfants et famille§Crianças e família
+Language§Lingua§Idioma§Langue§Idioma
+Last updated §Ultimo aggiornamento §Última actualización §Dernière mise à jour §Última atualização 
+Latest episodes§Ultimi episodi§Últimos episodios§Derniers épisodes§Últimos episódios
+Left§Sinistra§Izquierda§Gauche§Esquerda
+left§rimasti§restantes§restantes§restantes
+Left door§Portiera sinistra§§§
+Length§Lunghezza§§§
+Library§Libreria§Biblioteca§Bibliothèque§Biblioteca
+Light§Chiaro§Claro§Clair§Claro
+Light the fireplace§Accendi il camino§Enciende la chimenea§Allumer la cheminée§Acender a lareira
+Lighten and load§Alleggerisci e carica§§§
+Lights§Luci§Luces§Éclairage§Luzes
+Liked songs§Mi piace§Me gusta§Titres likés§Curtidas
+Listen§Ascolta§Escuchar§Écouter§Ouvir
+Listen to music from the car's apps instead of streaming from the phone§Ascolta la musica dalle app dell'auto invece che in streaming dal telefono§Escucha música desde las apps del coche en lugar de por streaming desde el teléfono§Écoutez la musique depuis les applications de la voiture plutôt qu'en streaming depuis le téléphone§Ouça música a partir das aplicações do carro em vez de em streaming a partir do telemóvel
+Load 3D car§Carica Car 3D§§§
+Load another model in place of the current one, or redo the setup of doors, hood, trunk, wheels and color.§Carica un altro modello al posto di quello attuale, oppure rifai la configurazione di portiere, cofano, baule, ruote e colore.§§§
+Load as is§Carica così com'è§§§
+Load new model§Carica nuovo modello§§§
+Loading audio...§Caricamento audio...§Cargando audio...§Chargement de l'audio...§A carregar áudio...
+Loading episodes…§Carico gli episodi…§Cargando episodios…§Chargement des épisodes…§A carregar episódios…
+Loading playlist...§Caricamento playlist...§Cargando lista...§Chargement de la playlist...§A carregar lista...
+Loading the car…§Sto caricando l'auto…§§§
+Loading the category…§Carico la categoria…§Cargando la categoría…§Chargement de la catégorie…§A carregar a categoria…
+Loading the chart…§Carico la classifica…§Cargando la clasificación…§Chargement du classement…§A carregar a classificação…
+Loading...§Carico...§Cargando...§Chargement...§A carregar...
+loading…§carico…§cargando…§chargement…§a carregar…
+Loading…§Caricamento…§Cargando…§Chargement…§Carregando…
+Local§Locale§Local§Local§Local
+Lock§Lucchetto§Candado§Cadenas§Cadeado
+Locks the touch for a few seconds while you clean the glass§Blocca il touch per qualche secondo mentre pulisci il vetro§Bloquea el táctil unos segundos mientras limpias el cristal§Verrouille le tactile quelques secondes pendant que vous nettoyez la vitre§Bloqueia o toque durante alguns segundos enquanto limpa o vidro
+Login detected, saving data...§Login rilevato, salvo i dati...§Inicio de sesión detectado, guardando datos...§Connexion détectée, enregistrement des données...§Início de sessão detetado, a guardar dados...
+Look at the car: is the part that moves %1? If you cannot see it, rotate the car with your finger.§Guarda l'auto: la parte che si muove è %1? Se non la vedi, ruota l'auto col dito.§§§
+Looking for games…§Sto cercando i giochi…§Buscando juegos…§Recherche des jeux…§A procurar jogos…
+Looking for lyrics…§Cerco i testi…§Buscando la letra…§Recherche des paroles…§A procurar a letra…
+Looking for music… §Sto cercando la musica… §Buscando música… §Recherche de musique… §Procurando música… 
+Low performance mode§Modalità basse prestazioni§Modo de bajo rendimiento§Mode faibles performances§Modo de baixo desempenho
+Lyrics not found§Testi non trovati§Letra no encontrada§Paroles introuvables§Letra não encontrada
+Made for you§Create per te§Creado para ti§Créé pour vous§Criado para si
+Main ones only§Solo i principali§§§
+Map appearance§Aspetto della mappa§Aspecto del mapa§Apparence de la carte§Aspeto do mapa
+Map style§Stile mappa§Estilo del mapa§Style de carte§Estilo do mapa
+Map view§Visualizzazione mappa§Vista del mapa§Affichage de la carte§Vista do mapa
+map view heading north up satellite style§visualizzazione mappa vista satellite stile§vista mapa satélite estilo§affichage carte vue satellite style§vista mapa satélite estilo
+Mapbox calculates routes, live traffic and turn-by-turn directions.§Mapbox calcola i percorsi, il traffico in tempo reale e le indicazioni svolta per svolta.§Mapbox calcula las rutas, el tráfico en tiempo real y las indicaciones giro a giro.§Mapbox calcule les itinéraires, le trafic en temps réel et les indications virage par virage.§O Mapbox calcula os percursos, o trânsito em tempo real e as indicações passo a passo.
+Mapbox token§Token Mapbox§Token de Mapbox§Jeton Mapbox§Token do Mapbox
+Maps§Mappe§Mapas§Cartes§Mapas
+Maps and navigation§Mappe e navigazione§Mapas y navegación§Cartes et navigation§Mapas e navegação
+MapTiler draws the map: roads, street names and the light and dark theme colors.§MapTiler disegna la mappa: strade, nomi delle vie e colori del tema chiaro e scuro.§MapTiler dibuja el mapa: calles, nombres de las vías y colores del tema claro y oscuro.§MapTiler dessine la carte : routes, noms des rues et couleurs des thèmes clair et sombre.§O MapTiler desenha o mapa: estradas, nomes das ruas e cores do tema claro e escuro.
+MapTiler key§Chiave MapTiler§Clave de MapTiler§Clé MapTiler§Chave do MapTiler
+March§marzo§marzo§mars§março
+Marked as played§Segnato come ascoltato§Marcado como escuchado§Marqué comme écouté§Marcado como ouvido
+Marked as unplayed§Segnato come da ascoltare§Marcado como no escuchado§Marqué comme non écouté§Marcado como não ouvido
+Marker§Pennarello§Rotulador§Feutre§Marcador
+Mars§Marte§Marte§Mars§Marte
+Materials§Materiali§§§
+Matte§Opaca§Mate§Mate§Mate
+May§maggio§mayo§mai§maio
+Messages§Messaggi§Mensajes§Messages§Mensagens
+Mirror the interface: car panel and apps move to the chosen side§Specchia l'interfaccia: pannello auto e app si spostano sul lato scelto§Refleja la interfaz: el panel del coche y las apps pasan al lado elegido§Inverse l'interface : le panneau voiture et les applications passent du côté choisi§Espelha a interface: o painel do carro e as aplicações passam para o lado escolhido
+Mobile§Mobile§Móvil§Mobile§Telemóvel
+Moderate§Moderata§Moderada§Modérée§Moderada
+Monday§Lunedì§Lunes§Lundi§Segunda-feira
+More categories to explore§Altre categorie da esplorare§Más categorías para explorar§Plus de catégories à explorer§Mais categorias para explorar
+Most listened§Più ascoltati§Más escuchados§Les plus écoutés§Mais ouvidos
+Most played tracks§Brani più ascoltati§Canciones más escuchadas§Titres les plus écoutés§Faixas mais ouvidas
+Mostly clear§Quasi sereno§Casi despejado§Peu nuageux§Pouco nublado
+Move the buttons (lock, hood, trunk)§Sposta i tasti (lucchetto, cofano, vano posteriore)§§§
+Multi-planetary species§Specie multi-planetaria§Especie multiplanetaria§Espèce multi-planétaire§Espécie multiplanetária
+Music§Musica§Música§Musique§Música
+MY APPS§LE MIE APP§MIS APPS§MES APPLICATIONS§AS MINHAS APPS
+Navigate§Naviga§Navegar§Naviguer§Navegar
+Navigation§Navigazione§Navegación§Navigation§Navegação
+Nearby devices§Dispositivi nelle vicinanze§Dispositivos cercanos§Appareils à proximité§Dispositivos próximos
+Network§Rete§Red§Réseau§Rede
+New message§Nuovo messaggio§Nuevo mensaje§Nouveau message§Nova mensagem
+New preset§Nuova preimpostazione§Nuevo preajuste§Nouveau préréglage§Nova predefinição
+New releases§Nuove uscite§Novedades§Nouveautés§Novos lançamentos
+Newest first§Dal più recente§Más recientes primero§Plus récents d'abord§Mais recentes primeiro
+News from your podcasts§Novità dai tuoi podcast§Novedades de tus podcasts§Nouveautés de vos podcasts§Novidades dos seus podcasts
+Next from §Successivi da §Siguientes de §Suivants de §Seguintes de 
+Night effect (satellite)§Effetto notte (satellite)§Efecto nocturno (satélite)§Effet nuit (satellite)§Efeito noturno (satélite)
+Night only§Solo di notte§Solo de noche§Seulement la nuit§Só de noite
+night satellite dark map effect§notte satellite scuro mappa effetto§noche satélite oscuro mapa efecto§nuit satellite sombre carte effet§noite satélite escuro mapa efeito
+No§No§§§
+No albums.§Nessun album.§Ningún álbum.§Aucun album.§Nenhum álbum.
+No artists.§Nessun artista.§Ningún artista.§Aucun artiste.§Nenhum artista.
+No audio devices detected: pactl isn't installed or found no outputs.§Nessun dispositivo audio rilevato: pactl non è installato o non ha trovato uscite.§No se detectó ningún dispositivo de audio: pactl no está instalado o no encontró salidas.§Aucun périphérique audio détecté : pactl n'est pas installé ou n'a trouvé aucune sortie.§Nenhum dispositivo de áudio detetado: o pactl não está instalado ou não encontrou saídas.
+No Bluetooth adapter found on the system.§Nessun adattatore Bluetooth trovato sul sistema.§No se encontró ningún adaptador Bluetooth en el sistema.§Aucun adaptateur Bluetooth trouvé sur le système.§Nenhum adaptador Bluetooth encontrado no sistema.
+No connection — check the network§Connessione assente — controlla la rete§Sin conexión — comprueba la red§Pas de connexion — vérifiez le réseau§Sem ligação — verifique a rede
+No contacts\nEnable contact sharing on your phone§Nessun contatto\nAbilita la condivisione contatti sul telefono§Sin contactos\nActiva compartir contactos en el teléfono§Aucun contact\nActivez le partage des contacts sur le téléphone§Sem contactos\nAtive a partilha de contactos no telemóvel
+No data (offline?)§Nessun dato (offline?)§Sin datos (¿sin conexión?)§Aucune donnée (hors ligne ?)§Sem dados (sem ligação?)
+No device found§Nessun dispositivo trovato§No se encontró ningún dispositivo§Aucun périphérique trouvé§Nenhum dispositivo encontrado
+No devices found. Check that it's on and discoverable, then tap «Search».§Nessun dispositivo trovato. Controlla che sia acceso e rilevabile, poi tocca «Cerca».§No se encontró ningún dispositivo. Comprueba que esté encendido y visible, luego toca «Buscar».§Aucun appareil trouvé. Vérifiez qu'il est allumé et visible, puis touchez « Rechercher ».§Nenhum dispositivo encontrado. Verifique se está ligado e visível e toque em «Procurar».
+No events scheduled§Nessun evento in programma§Ningún evento programado§Aucun événement prévu§Nenhum evento agendado
+No favorite contacts saved§Nessun contatto preferito salvato§Ningún contacto favorito guardado§Aucun contact favori enregistré§Nenhum contacto favorito guardado
+No favorites yet§Nessun preferito ancora§Aún no hay favoritos§Aucun favori pour l'instant§Ainda sem favoritos
+No games§Nessun gioco§Ningún juego§Aucun jeu§Nenhum jogo
+No games yet: add one in Bottles§Nessun gioco ancora: aggiungine uno in Bottles§Aún no hay juegos: añade uno en Bottles§Aucun jeu pour l'instant : ajoutez-en un dans Bottles§Ainda sem jogos: adicione um no Bottles
+No input device§Nessun dispositivo d'ingresso§Ningún dispositivo de entrada§Aucun périphérique d'entrée§Nenhum dispositivo de entrada
+No networks found nearby.§Nessuna rete trovata nei dintorni.§No se encontró ninguna red cercana.§Aucun réseau trouvé à proximité.§Nenhuma rede encontrada nas proximidades.
+No new episodes to listen to.§Nessun episodio nuovo da ascoltare.§Ningún episodio nuevo para escuchar.§Aucun nouvel épisode à écouter.§Nenhum episódio novo para ouvir.
+No other episodes in queue§Nessun altro episodio in coda§Ningún otro episodio en cola§Aucun autre épisode dans la file§Nenhum outro episódio na fila
+No paired devices.§Nessun dispositivo associato.§Ningún dispositivo emparejado.§Aucun appareil associé.§Nenhum dispositivo emparelhado.
+No playable track§Nessuna traccia riproducibile§Ninguna canción reproducible§Aucun titre lisible§Nenhuma faixa reproduzível
+No radio found§Nessuna radio trovata§No se encontró ninguna radio§Aucune radio trouvée§Nenhuma rádio encontrada
+No receiver connected. Plug in a USB GPS or pair one over Bluetooth: it's recognized automatically.§Nessun ricevitore collegato. Collega un GPS USB oppure associalo in Bluetooth: viene riconosciuto da solo.§Ningún receptor conectado. Conecta un GPS USB o empareja uno por Bluetooth: se reconoce solo.§Aucun récepteur connecté. Branchez un GPS USB ou associez-en un en Bluetooth : il est reconnu automatiquement.§Nenhum recetor ligado. Ligue um GPS USB ou emparelhe um por Bluetooth: é reconhecido automaticamente.
+No recent calls\nConnect your phone via Bluetooth§Nessuna chiamata recente\nCollega il telefono via Bluetooth§Sin llamadas recientes\nConecta el teléfono por Bluetooth§Aucun appel récent\nConnectez le téléphone en Bluetooth§Sem chamadas recentes\nLigue o telemóvel por Bluetooth
+No recent destinations§Nessuna destinazione recente§Sin destinos recientes§Aucune destination récente§Sem destinos recentes
+No recent searches§Nessuna ricerca recente§Sin búsquedas recientes§Aucune recherche récente§Sem pesquisas recentes
+No results§Nessun risultato§Sin resultados§Aucun résultat§Sem resultados
+No results for “§Nessun risultato per “§Sin resultados para “§Aucun résultat pour “§Sem resultados para “
+No results found§Nessun risultato trovato§No se encontraron resultados§Aucun résultat trouvé§Nenhum resultado encontrado
+No results nearby§Nessun risultato nelle vicinanze§Sin resultados cerca§Aucun résultat à proximité§Sem resultados nas proximidades
+No results. Tap here to retry.§Nessun risultato. Tocca qui per riprovare.§Sin resultados. Toca aquí para reintentar.§Aucun résultat. Touchez ici pour réessayer.§Sem resultados. Toque aqui para tentar novamente.
+No songs on the connected USB drives.§Nessun brano sulle chiavette USB collegate.§No hay canciones en las memorias USB conectadas.§Aucun titre sur les clés USB connectées.§Nenhuma música nos pen drives USB conectados.
+no source§nessuna fonte§ninguna fuente§aucune source§nenhuma fonte
+No track playing§Nessun brano in riproduzione§Ninguna canción en reproducción§Aucun titre en lecture§Nenhuma faixa em reprodução
+No tracks found.\nPut your music in §Nessun brano trovato.\nMetti la musica in §No se encontró ninguna canción.\nPon tu música en §Aucun morceau trouvé.\nMettez votre musique dans §Nenhuma música encontrada.\nColoque sua música em 
+No tracks in queue§Nessun brano in coda§Ninguna canción en cola§Aucun titre dans la file§Nenhuma faixa na fila
+No Wi-Fi adapter found on the system.§Nessun adattatore Wi-Fi trovato sul sistema.§No se encontró ningún adaptador Wi-Fi en el sistema.§Aucun adaptateur Wi-Fi trouvé sur le système.§Nenhum adaptador Wi-Fi encontrado no sistema.
+No, I'll choose from the list§No, scelgo io dall'elenco§§§
+North§Nord§Norte§Nord§Norte
+Not a valid .glb file.§Non e' un file .glb valido.§§§
+Not connected§Non connesso§No conectado§Non connecté§Não ligado
+Nothing playing§Niente in riproduzione§Nada en reproducción§Rien en lecture§Nada em reprodução
+Nothing playing\nStart an episode from Home or search§Niente in riproduzione\nAvvia un episodio dalla Home o dalla ricerca§Nada en reproducción\nInicia un episodio desde Inicio o la búsqueda§Rien en lecture\nLancez un épisode depuis l'accueil ou la recherche§Nada em reprodução\nInicie um episódio a partir do Início ou da pesquisa
+November§novembre§noviembre§novembre§novembro
+October§ottobre§octubre§octobre§outubro
+Off§Off§Desactivado§Désactivé§Desligado
+Oldest first§Dal meno recente§Más antiguos primero§Plus anciens d'abord§Mais antigos primeiro
+On a call§In chiamata§En llamada§En appel§Em chamada
+On the «Tokens» page copy the «Default public token» (starts with «pk.»).§Nella pagina «Tokens» copia il «Default public token» (inizia con «pk.»).§En la página «Tokens» copia el «Default public token» (empieza por «pk.»).§Sur la page « Tokens », copiez le « Default public token » (commence par « pk. »).§Na página «Tokens» copie o «Default public token» (começa por «pk.»).
+On-screen keyboard§Tastiera virtuale§Teclado en pantalla§Clavier à l'écran§Teclado no ecrã
+Open§Apri§Abrir§Ouvrir§Abrir
+Open account.mapbox.com and create a free account.§Apri account.mapbox.com e crea un account gratuito.§Abre account.mapbox.com y crea una cuenta gratuita.§Ouvrez account.mapbox.com et créez un compte gratuit.§Abra account.mapbox.com e crie uma conta gratuita.
+Open Bottles§Apri Bottles§Abrir Bottles§Ouvrir Bottles§Abrir o Bottles
+Open cloud.maptiler.com and sign up for free.§Apri cloud.maptiler.com e registrati gratis.§Abre cloud.maptiler.com y regístrate gratis.§Ouvrez cloud.maptiler.com et inscrivez-vous gratuitement.§Abra cloud.maptiler.com e registe-se gratuitamente.
+Open developer.spotify.com/dashboard and sign in with your Spotify account.§Apri developer.spotify.com/dashboard e accedi con il tuo account Spotify.§Abre developer.spotify.com/dashboard e entra con tu cuenta de Spotify.§Ouvrez developer.spotify.com/dashboard et connectez-vous avec votre compte Spotify.§Abra developer.spotify.com/dashboard e inicie sessão com a sua conta Spotify.
+Open terminal§Apri terminale§Abrir terminal§Ouvrir le terminal§Abrir terminal
+Open «API keys» and copy the key.§Apri «API keys» e copia la chiave.§Abre «API keys» y copia la clave.§Ouvrez « API keys » et copiez la clé.§Abra «API keys» e copie a chave.
+OpenWeatherMap completes the rain radar on the map. It's optional: the radar already works without it.§OpenWeatherMap completa il radar della pioggia sulla mappa. È facoltativo: il radar funziona già anche senza.§OpenWeatherMap completa el radar de lluvia en el mapa. Es opcional: el radar ya funciona también sin ella.§OpenWeatherMap complète le radar de pluie sur la carte. C'est facultatif : le radar fonctionne déjà sans.§O OpenWeatherMap completa o radar de chuva no mapa. É opcional: o radar já funciona sem ele.
+OpenWeatherMap key§Chiave OpenWeatherMap§Clave de OpenWeatherMap§Clé OpenWeatherMap§Chave do OpenWeatherMap
+Operation failed: §Operazione non riuscita: §Operación fallida: §Échec de l'opération : §A operação falhou: 
+Or play directly from these apps§Oppure riproduci direttamente da queste app§O reproduce directamente desde estas apps§Ou lisez directement depuis ces applications§Ou reproduza diretamente destas aplicações
+Outgoing call§Chiamata in uscita§Llamada saliente§Appel sortant§Chamada efetuada
+Output§Uscita§Salida§Sortie§Saída
+Output device§Dispositivo di uscita§Dispositivo de salida§Périphérique de sortie§Dispositivo de saída
+Outside temp.§Temp. esterna§Temp. exterior§Temp. extérieure§Temp. exterior
+Overcast§Coperto§Cubierto§Couvert§Encoberto
+Paint type§Tipo di vernice§Tipo de pintura§Type de peinture§Tipo de pintura
+Pair§Associa§Emparejar§Associer§Emparelhar
+Pair «§Associa «§Emparejar «§Associer «§Emparelhar «
+Paired Bluetooth devices: tap one to use it as GPS§Dispositivi Bluetooth associati: tocca per usarlo come GPS§Dispositivos Bluetooth emparejados: toca uno para usarlo como GPS§Appareils Bluetooth associés : touchez-en un pour l'utiliser comme GPS§Dispositivos Bluetooth emparelhados: toque num para o usar como GPS
+Paired devices§Dispositivi abbinati§Dispositivos emparejados§Appareils associés§Dispositivos emparelhados
+Parking§Parcheggio§Aparcamiento§Parking§Estacionamento
+Parking nearby§Parcheggi vicini§Aparcamientos cercanos§Parkings à proximité§Estacionamentos próximos
+Partly cloudy§Parz. nuvoloso§Parcialmente nublado§Partiellement nuageux§Parcialmente nublado
+Password for §Password per §Contraseña de §Mot de passe pour §Palavra-passe de 
+Paste§Incolla§Pegar§Coller§Colar
+Paste it below.§Incollalo qui sotto.§Pégalo abajo.§Collez-le ci-dessous.§Cole-o abaixo.
+Paste it below. New keys can take up to 2 hours to activate.§Incollala qui sotto. Le chiavi nuove possono impiegare fino a 2 ore per attivarsi.§Pégala abajo. Las claves nuevas pueden tardar hasta 2 horas en activarse.§Collez-la ci-dessous. Les nouvelles clés peuvent mettre jusqu'à 2 heures à s'activer.§Cole-a abaixo. As chaves novas podem demorar até 2 horas a ativar-se.
+Pastel§Pastello§Pastel§Pastel§Pastel
+Performance§Prestazioni§Rendimiento§Performances§Desempenho
+Phone§Telefono§Teléfono§Téléphone§Telemóvel
+Phone service not active§Servizio telefono non attivo§Servicio de teléfono no activo§Service téléphone inactif§Serviço de telefone inativo
+Place search§Ricerca di luoghi§Búsqueda de lugares§Recherche de lieux§Pesquisa de locais
+Place the cushion on a seat, then tap it.§Posiziona il cuscino su un sedile, poi toccalo.§Coloca el cojín en un asiento y tócalo.§Placez le coussin sur un siège, puis touchez-le.§Coloque a almofada num banco e toque nela.
+plain text only§solo testo semplice§solo texto sin sincronizar§texte brut uniquement§apenas texto simples
+Play a smelly prank on one of your passengers, in any seat.§Fai uno scherzo puzzolente a uno dei tuoi passeggeri, su qualsiasi sedile.§Hazle una broma apestosa a uno de tus pasajeros, en cualquier asiento.§Faites une farce malodorante à l'un de vos passagers, sur n'importe quel siège.§Faça uma partida malcheirosa a um dos passageiros, em qualquer lugar.
+Play game§Gioca§Jugar§Jouer§Jogar
+Playback§Riproduzione§Reproducción§Lecture§Reprodução
+playback unavailable§riproduzione non disponibile§reproducción no disponible§lecture indisponible§reprodução indisponível
+Playback unavailable (python-mpv missing)§Riproduzione non disponibile (manca python-mpv)§Reproducción no disponible (falta python-mpv)§Lecture indisponible (python-mpv manquant)§Reprodução indisponível (falta o python-mpv)
+Played§Ascoltato§Escuchado§Écouté§Ouvido
+Playing from phone§In riproduzione dal telefono§Reproduciendo desde el teléfono§Lecture depuis le téléphone§A reproduzir do telemóvel
+PLAYLIST§PLAYLIST§LISTA§PLAYLIST§PLAYLIST
+Playlist§Playlist§Lista§Playlist§Lista
+Playlist name§Nome della playlist§Nombre de la lista§Nom de la playlist§Nome da playlist
+Playlists§Playlists§Listas§Playlists§Listas
+Plug the Carlinkit dongle into a USB port.§Inserisci il dongle Carlinkit in una porta USB.§Inserta el dongle Carlinkit en un puerto USB.§Branchez le dongle Carlinkit sur un port USB.§Insira o dongle Carlinkit numa porta USB.
+Podcast service starting…§Servizio podcast in avvio…§Servicio de podcasts iniciándose…§Service de podcasts en cours de démarrage…§Serviço de podcasts a iniciar…
+Podcast service unreachable.§Servizio podcast non raggiungibile.§Servicio de podcasts inaccesible.§Service de podcasts injoignable.§Serviço de podcasts inacessível.
+Podcast unreachable§Podcast non raggiungibile§Podcast inaccesible§Podcast injoignable§Podcast inacessível
+Podcasts§Podcast§Podcasts§Podcasts§Podcasts
+Position and size§Posizione e grandezza§§§
+Position X (left / right)§Posizione X (sinistra / destra)§§§
+Position Y (forward / back)§Posizione Y (avanti / indietro)§§§
+Position Y (up / down)§Posizione Y (alto / basso)§§§
+Press and hold\nto exit§Tieni premuto per\nuscire§Mantén pulsado\npara salir§Maintenez appuyé\npour quitter§Mantenha premido\npara sair
+Press «Create app». Name and description are up to you; in «Redirect URIs» add the address below and tick «Web API».§Premi «Create app». Nome e descrizione a piacere; in «Redirect URIs» aggiungi l'indirizzo qui sotto e spunta «Web API».§Pulsa «Create app». Nombre y descripción a tu gusto; en «Redirect URIs» añade la dirección de abajo y marca «Web API».§Appuyez sur « Create app ». Nom et description au choix ; dans « Redirect URIs » ajoutez l'adresse ci-dessous et cochez « Web API ».§Prima «Create app». Nome e descrição à sua escolha; em «Redirect URIs» adicione o endereço abaixo e assinale «Web API».
+Proportions§Proporzioni§§§
+Publish§Pubblica§Publicar§Publier§Publicar
+Queue§In coda§Cola§File d'attente§Fila
+Quick picks§Scelte rapide§Selecciones rápidas§Sélections rapides§Seleções rápidas
+Radio§Radio§Radio§Radio§Rádio
+Rain§Pioggia§Lluvia§Pluie§Chuva
+Rear§Posteriore§Trasero§Arrière§Traseiro
+Rear left door§Portiera posteriore sinistra§§§
+Rear right door§Portiera posteriore destra§§§
+Recent§Recenti§Recientes§Récents§Recentes
+RECENT APPS§APP RECENTI§APPS RECIENTES§APPLICATIONS RÉCENTES§APPS RECENTES
+RECENT CALLS§CHIAMATE RECENTI§LLAMADAS RECIENTES§APPELS RÉCENTS§CHAMADAS RECENTES
+Recent searches§Ricerche recenti§Búsquedas recientes§Recherches récentes§Pesquisas recentes
+Recent Searches§Ricerche Recenti§Búsquedas Recientes§Recherches Récentes§Pesquisas Recentes
+Recenter§Ricentra§Recentrar§Recentrer§Recentrar
+Recently played§Ascoltati di recente§Escuchados recientemente§Écoutés récemment§Ouvidos recentemente
+Reconnect the phone§Riconnetti il telefono§Reconectar el teléfono§Reconnecter le téléphone§Religar o telemóvel
+Red light camera§Telecamera al semaforo§Cámara de semáforo§Radar de feu rouge§Radar de semáforo
+Reduce blue light§Riduci luce blu§Reducir luz azul§Réduire la lumière bleue§Reduzir luz azul
+Refresh§Aggiorna§Actualizar§Actualiser§Atualizar
+Remove from this playlist§Togli da questa playlist§Quitar de esta lista§Retirer de cette playlist§Remover desta playlist
+Removed from apps§Tolta dalle app§Quitada de las apps§Retirée des applications§Removida das aplicações
+Removed from saved§Rimosso dai salvati§Quitado de guardados§Retiré des enregistrés§Removido dos guardados
+Removes the car reflection, panel blurs and other heavy effects: the UI gets lighter on less powerful computers§Toglie il riflesso dell'auto, gli sfocati dei pannelli e altri effetti pesanti: la UI diventa più leggera sui computer meno potenti§Quita el reflejo del coche, los desenfoques de los paneles y otros efectos pesados: la interfaz es más ligera en ordenadores menos potentes§Supprime le reflet de la voiture, les flous des panneaux et d'autres effets lourds : l'interface est plus légère sur les ordinateurs moins puissants§Remove o reflexo do carro, os desfoques dos painéis e outros efeitos pesados: a interface fica mais leve em computadores menos potentes
+Repeat setup§Ripeti configurazione§§§
+Repeat: off§Ripeti: spento§Repetir: desactivado§Répéter : désactivé§Repetir: desligado
+Repeat: this song§Ripeti: questo brano§Repetir: esta canción§Répéter : ce morceau§Repetir: esta música
+Repeat: whole queue§Ripeti: tutta la coda§Repetir: toda la cola§Répéter : toute la file§Repetir: toda a fila
+Reset§Ripristina§Restablecer§Réinitialiser§Repor
+Resolution§Risoluzione§Resolución§Résolution§Resolução
+Resolution and DPI apply on reconnection (it starts by itself when you change them)§Risoluzione e DPI si applicano alla riconnessione (parte da sola quando li cambi)§La resolución y los DPI se aplican al reconectar (se inicia solo al cambiarlos)§La résolution et les DPI s'appliquent à la reconnexion (elle démarre toute seule quand vous les modifiez)§A resolução e os DPI aplicam-se ao religar (inicia sozinho quando os altera)
+Restaurant§Ristorante§Restaurante§Restaurant§Restaurante
+Restaurants§Ristoranti§Restaurantes§Restaurants§Restaurantes
+Restaurants nearby§Ristoranti vicini§Restaurantes cercanos§Restaurants à proximité§Restaurantes próximos
+Results for: §Risultati per: §Resultados para: §Résultats pour : §Resultados para: 
+Resume on startup§Riprendi all'avvio§Reanudar al iniciar§Reprendre au démarrage§Retomar ao iniciar
+resume startup playback music track radio last§riprendi avvio riproduzione musica brano radio ultimo§reanudar inicio reproducción música canción radio último§reprendre démarrage lecture musique titre radio dernier§retomar arranque reprodução música faixa rádio último
+Resumes the last track or radio station§Riparte l'ultimo brano o l'ultima stazione radio§Reanuda la última canción o emisora de radio§Reprend le dernier titre ou la dernière station de radio§Retoma a última faixa ou estação de rádio
+Retrying by itself every few seconds.§Riprovo da solo ogni pochi secondi.§Reintentando solo cada pocos segundos.§Nouvel essai automatique toutes les quelques secondes.§A tentar novamente sozinho a cada poucos segundos.
+Right§Destra§Derecha§Droite§Direita
+Right door§Portiera destra§§§
+Romance mode§Modalità Romance§Modo Romance§Mode Romance§Modo Romance
+Rotate 180°§Gira di 180°§§§
+s on §s su §s en §s sur §s em 
+Saturday§Sabato§Sábado§Samedi§Sábado
+Save§Salva§Guardar§Enregistrer§Guardar
+Save the current equalization with a name, to recall it whenever you like.§Salva l'equalizzazione di adesso con un nome, per richiamarla quando vuoi.§Guarda la ecualización actual con un nombre para recuperarla cuando quieras.§Enregistrez l'égalisation actuelle avec un nom pour la rappeler quand vous voulez.§Guarde a equalização atual com um nome para a recuperar quando quiser.
+Saved§Salvati§Guardados§Enregistrés§Guardados
+Saved for later§Salvato per dopo§Guardado para después§Enregistré pour plus tard§Guardado para mais tarde
+Scan with your phone and save the page: the Google Maps link you type or paste there arrives here. To send with «Share», use the same address in HTTP Shortcuts.§Scansiona col telefono e salva la pagina: il link di Google Maps che scrivi o incolli li' arriva qui. Per inviare con «Condividi» usa lo stesso indirizzo in HTTP Shortcuts.§Escanea con el teléfono y guarda la página: el enlace de Google Maps que escribas o pegues allí llega aquí. Para enviar con «Compartir» usa la misma dirección en HTTP Shortcuts.§Scannez avec votre téléphone et enregistrez la page : le lien Google Maps que vous saisissez ou collez arrive ici. Pour envoyer avec « Partager », utilisez la même adresse dans HTTP Shortcuts.§Leia com o telemóvel e guarde a página: a ligação do Google Maps que escrever ou colar aí chega aqui. Para enviar com «Partilhar», use o mesmo endereço no HTTP Shortcuts.
+schedule time range dark from to automatic§orario fascia scuro dalle alle automatico§horario franja oscuro desde hasta automático§horaire plage sombre de à automatique§horário intervalo escuro das às automático
+Screen brightness§Luminosità schermo§Brillo de pantalla§Luminosité de l'écran§Brilho do ecrã
+Screen cleaning§Pulizia schermo§Limpieza de pantalla§Nettoyage de l'écran§Limpeza do ecrã
+Screen cleaning mode§Modalità pulizia schermo§Modo limpieza de pantalla§Mode nettoyage de l'écran§Modo de limpeza do ecrã
+Search§Cerca§Buscar§Rechercher§Procurar
+Search contact§Cerca contatto§Buscar contacto§Rechercher un contact§Procurar contacto
+Search destination§Cerca destinazione§Buscar destino§Rechercher une destination§Procurar destino
+Search failed.§Ricerca non riuscita.§La búsqueda falló.§La recherche a échoué.§A pesquisa falhou.
+Search failed: §Ricerca non riuscita: §Búsqueda fallida: §Échec de la recherche : §A pesquisa falhou: 
+Search for a country…§Cerca un paese…§Buscar un país…§Rechercher un pays…§Procurar um país…
+Search for the stop to add§Cerca la tappa da aggiungere§Busca la parada que añadir§Recherchez l'étape à ajouter§Procure a paragem a adicionar
+Search podcasts, episodes, topics…§Cerca podcast, episodi, argomenti…§Buscar podcasts, episodios, temas…§Rechercher des podcasts, épisodes, sujets…§Procurar podcasts, episódios, temas…
+Search settings§Cerca impostazioni§Buscar ajustes§Rechercher dans les réglages§Procurar definições
+Search songs, albums, artists...§Cerca canzoni, album, artisti...§Buscar canciones, álbumes, artistas...§Rechercher des titres, albums, artistes...§Procurar músicas, álbuns, artistas...
+Search YT Music, Spotify and Music...§Cerca su YT Music, Spotify e Musica...§Buscar en YT Music, Spotify y Música...§Rechercher sur YT Music, Spotify et Musique...§Pesquisar no YT Music, Spotify e Música...
+Search «§Cerca «§Buscar «§Rechercher «§Pesquisar «
+Search...§Cerca...§Buscar...§Rechercher...§Procurar...
+Searching…§Ricerca in corso…§Buscando…§Recherche en cours…§A pesquisar…
+See all§Vedi tutti§Ver todo§Tout voir§Ver tudo
+Select a conversation§Seleziona una conversazione§Selecciona una conversación§Sélectionnez une conversation§Selecione uma conversa
+Select keyboard languages§Seleziona lingue tastiera§Seleccionar idiomas del teclado§Sélectionner les langues du clavier§Selecionar idiomas do teclado
+Select preset§Seleziona preimpostazione§Seleccionar preajuste§Sélectionner un préréglage§Selecionar predefinição
+Selected location§Posizione selezionata§Ubicación seleccionada§Position sélectionnée§Localização selecionada
+Selected: %1§Scelte: %1§§§
+Send§Invia§Enviar§Envoyer§Enviar
+Send destination from phone§Invia destinazione dal telefono§Enviar destino desde el teléfono§Envoyer une destination depuis le téléphone§Enviar destino do telemóvel
+September§settembre§septiembre§septembre§setembro
+Set as Home§Imposta come Casa§Establecer como Casa§Définir comme Domicile§Definir como Casa
+Set as Work§Imposta come Lavoro§Establecer como Trabajo§Définir comme Travail§Definir como Trabalho
+Set the right mood with a crackling fireplace on the full screen.§Metti l'atmosfera giusta con un camino scoppiettante a tutto schermo.§Crea el ambiente perfecto con una chimenea crepitante a pantalla completa.§Créez l'ambiance idéale avec un feu de cheminée crépitant en plein écran.§Crie o ambiente certo com uma lareira crepitante em ecrã inteiro.
+Shadow§Ombra§§§
+Show all§Mostra tutte§§§
+Show all (§Mostra tutti (§Mostrar todos (§Tout afficher (§Mostrar todos (
+Show more (§Mostra altri (§Mostrar más (§Afficher plus (§Mostrar mais (
+Show more stations§Mostra altre stazioni§Mostrar más emisoras§Afficher plus de stations§Mostrar mais estações
+Show the on-screen keyboard when you tap a text field§Mostra la tastiera a schermo quando tocchi un campo di testo§Muestra el teclado en pantalla al tocar un campo de texto§Affiche le clavier à l'écran quand vous touchez un champ de texte§Mostra o teclado no ecrã ao tocar num campo de texto
+Show them in Settings › Arcade§Mostrali da Impostazioni › Arcade§Muéstralos en Ajustes › Arcade§Affichez-les dans Réglages › Arcade§Mostre-os em Definições › Arcade
+Showers§Rovesci§Chubascos§Averses§Aguaceiros
+Shows the game fullscreen inside the UI§Mostra il gioco a schermo intero dentro la UI§Muestra el juego a pantalla completa dentro de la interfaz§Affiche le jeu en plein écran dans l'interface§Mostra o jogo em ecrã inteiro dentro da interface
+Shows your playlists, library and recommended tracks in the Spotify app. A free account works too.§Mostra le tue playlist, la libreria e i brani consigliati nell'app Spotify. Va bene anche un account gratuito.§Muestra tus listas, tu biblioteca y las canciones recomendadas en la app de Spotify. Sirve también una cuenta gratuita.§Affiche vos playlists, votre bibliothèque et les titres recommandés dans l'application Spotify. Un compte gratuit convient aussi.§Mostra as suas listas, a biblioteca e as faixas recomendadas na aplicação Spotify. Também serve uma conta gratuita.
+Sign in§Accedi§Iniciar sesión§Se connecter§Iniciar sessão
+Sign in to Spotify§Accedi a Spotify§Iniciar sesión en Spotify§Se connecter à Spotify§Iniciar sessão no Spotify
+Sign in to YouTube Music§Accedi a YouTube Music§Iniciar sesión en YouTube Music§Se connecter à YouTube Music§Iniciar sessão no YouTube Music
+Sign in with your Google account below: the connection is automatic.§Entra con il tuo account Google qui sotto: il collegamento e' automatico.§Inicia sesión con tu cuenta de Google abajo: la conexión es automática.§Connectez-vous avec votre compte Google ci-dessous : la liaison est automatique.§Inicie sessão com a sua conta Google abaixo: a ligação é automática.
+Sign out§Esci§Salir§Se déconnecter§Terminar sessão
+Sign up at developer.tomtom.com.§Registrati su developer.tomtom.com.§Regístrate en developer.tomtom.com.§Inscrivez-vous sur developer.tomtom.com.§Registe-se em developer.tomtom.com.
+Singles§Singoli§Sencillos§Singles§Singles
+Size§Grandezza§Tamaño§Taille§Tamanho
+Skip setup§Salta la configurazione§§§
+Skipped§Saltato§Omitido§Ignoré§Ignorado
+Sleep timer turned off§Timer di spegnimento disattivato§Temporizador de apagado desactivado§Minuterie d'arrêt désactivée§Temporizador de desligar desativado
+Snow§Neve§Nieve§Neige§Neve
+SONG§CANZONE§CANCIÓN§TITRE§MÚSICA
+Speed camera§Autovelox§Radar§Radar§Radar
+Speed camera (Tutor)§Tutor§Control de velocidad media§Contrôle de vitesse moyenne§Controlo de velocidade média
+Start§Inizia§Empezar§Commencer§Começar
+Start a track from YT Music, Spotify or the phone via Bluetooth§Avvia un brano da YT Music, Spotify o dal telefono via Bluetooth§Inicia una canción de YT Music, Spotify o del teléfono por Bluetooth§Lancez un titre depuis YT Music, Spotify ou le téléphone en Bluetooth§Inicie uma faixa do YT Music, do Spotify ou do telemóvel por Bluetooth
+Starting the dongle…§Avvio del dongle…§Iniciando el dongle…§Démarrage du dongle…§Iniciando o dongle…
+Starting…§Avvio…§Iniciando…§Démarrage…§A iniciar…
+Stations§Stazioni§Emisoras§Stations§Estações
+Step §Passo §Paso §Étape §Passo 
+Step %1 of %2§Passo %1 di %2§§§
+Stop§Tappa§Parada§Étape§Paragem
+Stops in §Si ferma tra §Se detiene en §S'arrête dans §Para em 
+Subscribe§Iscriviti§Suscribirse§S'abonner§Subscrever
+Subscribed§Iscritto§Suscrito§Abonné§Subscrito
+Subscription cancelled§Iscrizione annullata§Suscripción cancelada§Abonnement annulé§Subscrição cancelada
+Sunday§Domenica§Domingo§Dimanche§Domingo
+System§Sistema§Sistema§Système§Sistema
+System information and tools — section being expanded.§Informazioni e strumenti di sistema — sezione in ampliamento.§Información y herramientas del sistema — sección en ampliación.§Informations et outils système — section en cours d'extension.§Informações e ferramentas do sistema — secção em expansão.
+Tap the body materials in the list on the right: they turn pink on the car. You can choose more than one.§Tocca nell'elenco a destra i materiali della carrozzeria: diventano rosa sull'auto. Puoi sceglierne più di uno.§§§
+Tap the meshes of the "%1" part in the list on the right: they turn pink on the car. If the part is made of several meshes, choose all the ones you need.§Tocca nell'elenco a destra le mesh del pezzo «%1»: diventano rosa sull'auto. Se il pezzo è fatto da più mesh, scegli tutte quelle che servono.§§§
+Tap ☆ to add this page to your favorites§Tocca ☆ per aggiungere questa pagina ai preferiti§Toca ☆ para añadir esta página a favoritos§Touchez ☆ pour ajouter cette page aux favoris§Toque em ☆ para adicionar esta página aos favoritos
+the Bluetooth service isn't responding§il servizio Bluetooth non risponde§el servicio Bluetooth no responde§le service Bluetooth ne répond pas§o serviço Bluetooth não responde
+the body§la carrozzeria§§§
+The car does not have it§L'auto non ce l'ha§§§
+The car isn't connected to the internet: as soon as it is, the channel starts by itself.§L'auto non e' collegata a internet: appena lo e', il canale parte da solo.§El coche no está conectado a internet: en cuanto lo esté, el canal se inicia solo.§La voiture n'est pas connectée à Internet : dès qu'elle l'est, le canal démarre tout seul.§O carro não está ligado à internet: assim que estiver, o canal inicia sozinho.
+The car panel disappears and the map takes its place: fullscreen when no app is open, blurred in the background when you open one§Il pannello dell'auto scompare e la mappa prende il suo posto: a schermo intero quando non hai nessuna app aperta, sfocata sullo sfondo quando ne apri una§El panel del coche desaparece y el mapa ocupa su lugar: a pantalla completa cuando no hay ninguna app abierta, desenfocado al fondo cuando abres una§Le panneau voiture disparaît et la carte prend sa place : en plein écran quand aucune application n'est ouverte, floue à l'arrière-plan quand vous en ouvrez une§O painel do carro desaparece e o mapa ocupa o seu lugar: em ecrã inteiro quando não há nenhuma aplicação aberta, desfocado em segundo plano quando abre uma
+The converter is missing (scripts/convert_to_glb.py).§Manca il convertitore (scripts/convert_to_glb.py).§§§
+The dark theme turns on during the chosen time range§Il tema scuro si attiva nella fascia oraria scelta§El tema oscuro se activa en la franja horaria elegida§Le thème sombre s'active pendant la plage horaire choisie§O tema escuro ativa-se no intervalo horário escolhido
+The device wants to pair. Allow?§Il dispositivo chiede di associarsi. Consentire?§El dispositivo solicita emparejarse. ¿Permitir?§L'appareil demande à s'associer. Autoriser ?§O dispositivo pede para emparelhar. Permitir?
+The file does not contain a car (no scene).§Il file non contiene un'auto (nessuna scena).§§§
+The file does not contain any 3D shape.§Il file non contiene nessuna forma 3D.§§§
+The file is too large (maximum 200 MB).§Il file e' troppo grande (massimo 200 MB).§§§
+the front hood§il cofano davanti§§§
+The languages enabled here appear in the menu that opens when you tap the globe icon 🌐 on the keyboard§Le lingue attivate qui compaiono nel menu che si apre toccando l'icona del mondo 🌐 sulla tastiera§Los idiomas activados aquí aparecen en el menú que se abre al tocar el icono del mundo 🌐 del teclado§Les langues activées ici apparaissent dans le menu qui s'ouvre en touchant l'icône du globe 🌐 du clavier§Os idiomas ativados aqui aparecem no menu que se abre ao tocar no ícone do mundo 🌐 do teclado
+the left door§la portiera sinistra§§§
+The Music service is not responding. Try again in a moment.§Il servizio Musica non risponde. Riprova tra un momento.§El servicio de Música no responde. Inténtalo de nuevo en un momento.§Le service Musique ne répond pas. Réessayez dans un instant.§O serviço de Música não está respondendo. Tente novamente daqui a pouco.
+The phone doesn't report upcoming tracks. Add tracks from YT Music or Spotify: they'll play after this one.§Il telefono non comunica i brani successivi. Aggiungi brani da YT Music o Spotify: partiranno dopo questo.§El teléfono no comunica las siguientes canciones. Añade canciones de YT Music o Spotify: sonarán después de esta.§Le téléphone ne communique pas les titres suivants. Ajoutez des titres depuis YT Music ou Spotify : ils seront lus après celui-ci.§O telemóvel não comunica as faixas seguintes. Adicione faixas do YT Music ou do Spotify: tocarão depois desta.
+The podcasts you subscribe to will appear here.§Qui compariranno i podcast a cui ti iscrivi.§Aquí aparecerán los podcasts a los que te suscribas.§Les podcasts auxquels vous vous abonnez apparaîtront ici.§Os podcasts que subscrever aparecerão aqui.
+the rear left door§la portiera posteriore sinistra§§§
+the rear right door§la portiera posteriore destra§§§
+the rear trunk§il baule dietro§§§
+the right door§la portiera destra§§§
+The video is always 16:9. "Automatic" shows it whole with two bars; "Fill" stretches it to the edges (it distorts a little).§Il video è sempre 16:9. "Automatico" lo mostra intero con due barre; "Riempi" lo allunga fino ai bordi (si deforma un po').§El vídeo es siempre 16:9. "Automático" lo muestra entero con dos barras; "Rellenar" lo estira hasta los bordes (se deforma un poco).§La vidéo est toujours en 16:9. « Automatique » l'affiche en entier avec deux bandes ; « Remplir » l'étire jusqu'aux bords (elle se déforme un peu).§O vídeo é sempre 16:9. "Automático" mostra-o inteiro com duas barras; "Preencher" estica-o até às margens (deforma um pouco).
+the wheels§le ruote§§§
+Theme§Tema§Tema§Thème§Tema
+theme light dark automatic night day appearance§tema chiaro scuro automatico dark light notte giorno§tema claro oscuro automático noche día aspecto§thème clair sombre automatique nuit jour apparence§tema claro escuro automático noite dia aspeto
+This format requires Blender (free, blender.org): install it and try again. Or load a .glb file.§Per usare questo formato serve Blender (gratuito, blender.org): installalo e riprova. Oppure carica un file .glb.§§§
+This model is very heavy§Questo modello è molto pesante§§§
+Thunderstorm§Temporale§Tormenta§Orage§Trovoada
+Thursday§Giovedì§Jueves§Jeudi§Quinta-feira
+TIME§TEMPO§TIEMPO§DURÉE§TEMPO
+Time§Ora§Hora§Heure§Hora
+TO§ALLE§HASTA§À§ÀS
+To discover§Da scoprire§Para descubrir§À découvrir§Para descobrir
+To do§Da fare§Pendiente§À faire§Por fazer
+To install§Da installare§Por instalar§À installer§Por instalar
+To use §Per usare §Para usar §Pour utiliser §Para usar 
+Today§Oggi§Hoy§Aujourd'hui§Hoje
+tolls toll highway route avoid§pedaggi pedaggio autostrada percorso evita§peajes peaje autopista ruta evitar§péages péage autoroute itinéraire éviter§portagens portagem autoestrada percurso evitar
+TomTom finds cities, addresses and businesses when you search for a destination, plus nearby fuel stations.§TomTom trova città, indirizzi e attività quando cerchi una destinazione, e i distributori vicini.§TomTom encuentra ciudades, direcciones y negocios cuando buscas un destino, además de las gasolineras cercanas.§TomTom trouve villes, adresses et commerces quand vous cherchez une destination, ainsi que les stations-service proches.§O TomTom encontra cidades, moradas e estabelecimentos quando procura um destino, e os postos de combustível próximos.
+TomTom key§Chiave TomTom§Clave de TomTom§Clé TomTom§Chave do TomTom
+Too many requests, try again shortly§Troppe richieste, riprova tra poco§Demasiadas solicitudes, inténtalo de nuevo en breve§Trop de requêtes, réessayez dans un instant§Demasiados pedidos, tente novamente em breve
+Too many searches in a row: try again in a few seconds.§Troppe ricerche ravvicinate: riprova tra qualche secondo.§Demasiadas búsquedas seguidas: inténtalo de nuevo en unos segundos.§Trop de recherches rapprochées : réessayez dans quelques secondes.§Demasiadas pesquisas seguidas: tente novamente dentro de alguns segundos.
+Top episodes§Top episodi§Episodios más escuchados§Meilleurs épisodes§Melhores episódios
+Top podcasts§Top podcast§Podcasts más escuchados§Meilleurs podcasts§Melhores podcasts
+Top result§Risultato principale§Mejor resultado§Meilleur résultat§Melhor resultado
+Tracks§Brani§Canciones§Titres§Faixas
+Traffic light camera§Telecamera semaforo§Cámara de semáforo§Radar de feu§Câmara de semáforo
+Trailer§Trailer§Tráiler§Bande-annonce§Trailer
+Trending§Di tendenza§Tendencias§Tendances§Tendências
+Trunk§Vano posteriore§Maletero§Coffre§Mala
+Try again shortly§Riprova tra poco§Inténtalo de nuevo en breve§Réessayez dans un instant§Tente novamente em breve
+Tuesday§Martedì§Martes§Mardi§Terça-feira
+Tune in§Sintonizza§Sintonizar§Syntoniser§Sintonizar
+Turn§Svolta§Giro§Virage§Viragem
+Turn it off to disconnect all devices.§Disattivalo per scollegare tutti i dispositivi.§Desactívalo para desconectar todos los dispositivos.§Désactivez-le pour déconnecter tous les appareils.§Desative-o para desligar todos os dispositivos.
+Turn it on to connect your phone and other devices.§Attivalo per collegare telefono e altri dispositivi.§Actívalo para conectar el teléfono y otros dispositivos.§Activez-le pour connecter le téléphone et d'autres appareils.§Ative-o para ligar o telemóvel e outros dispositivos.
+Turn on Bluetooth on your phone and connect it to the dongle: CarPlay or Android Auto start by themselves.§Attiva il Bluetooth sul telefono e collegalo al dongle: CarPlay o Android Auto partono da soli.§Activa el Bluetooth del teléfono y conéctalo al dongle: CarPlay o Android Auto se inician solos.§Activez le Bluetooth du téléphone et connectez-le au dongle : CarPlay ou Android Auto démarrent tout seuls.§Ative o Bluetooth do telemóvel e ligue-o ao dongle: o CarPlay ou o Android Auto iniciam sozinhos.
+Turn your map into a map of Mars.§Trasforma la tua mappa in quella di Marte.§Convierte tu mapa en el de Marte.§Transformez votre carte en carte de Mars.§Transforme o seu mapa no de Marte.
+Type this code on the device.§Digita questo codice sul dispositivo.§Escribe este código en el dispositivo.§Saisissez ce code sur l'appareil.§Digite este código no dispositivo.
+Unable to calculate the route§Impossibile calcolare il percorso§No se puede calcular la ruta§Impossible de calculer l'itinéraire§Não é possível calcular o percurso
+Unable to copy the file.§Impossibile copiare il file.§§§
+Unable to play§Impossibile riprodurre§No se puede reproducir§Lecture impossible§Não é possível reproduzir
+Unable to save the drawing§Impossibile salvare il disegno§No se puede guardar el dibujo§Impossible d'enregistrer le dessin§Não é possível guardar o desenho
+Unable to save to favorites of §Impossibile salvare nei preferiti di §No se puede guardar en favoritos de §Impossible d'enregistrer dans les favoris de §Não é possível guardar nos favoritos de 
+Unhealthy§Non salutare§Poco saludable§Malsaine§Pouco saudável
+Unknown§Sconosciuto§Desconocido§Inconnu§Desconhecido
+Unknown device§Dispositivo sconosciuto§Dispositivo desconocido§Appareil inconnu§Dispositivo desconhecido
+Unleash your inner Picasso and share your creations with the critics. Participation is optional.§Libera il tuo Picasso interiore e condividi le tue creazioni coi critici. La partecipazione è facoltativa.§Libera tu Picasso interior y comparte tus creaciones con los críticos. La participación es opcional.§Libérez votre Picasso intérieur et partagez vos créations avec les critiques. La participation est facultative.§Liberte o seu Picasso interior e partilhe as suas criações com os críticos. A participação é opcional.
+Unsynced lyrics§Testo non sincronizzato§Letra sin sincronizar§Paroles non synchronisées§Letra não sincronizada
+Up next§Prossimi§Siguientes§À suivre§Seguintes
+USB§Usb§USB§USB§USB
+USB drive connected: §Chiavetta collegata: §Memoria USB conectada: §Clé USB connectée : §Pen drive conectado: 
+UV index§Indice UV§Índice UV§Indice UV§Índice UV
+Verifying the key…§Verifico la chiave…§Verificando la clave…§Vérification de la clé…§A verificar a chave…
+Verifying…§Verifico…§Verificando…§Vérification…§A verificar…
+Very unhealthy§Molto non salutare§Muy poco saludable§Très malsaine§Muito pouco saudável
+Video§Video§Vídeo§Vidéo§Vídeo
+Voice guidance volume§Volume indicazioni vocali§Volumen de las indicaciones por voz§Volume des instructions vocales§Volume das indicações por voz
+volume voice directions spoken navigation guidance§volume voce indicazioni vocali navigazione guida§volumen voz indicaciones habladas navegación guía§volume voix instructions vocales navigation guidage§volume voz indicações faladas navegação orientação
+Warmer tones in the evening (system Night Light)§Toni più caldi la sera (Luce notturna di sistema)§Tonos más cálidos por la noche (Luz nocturna del sistema)§Tons plus chauds le soir (Éclairage nocturne du système)§Tons mais quentes à noite (Luz noturna do sistema)
+Weather§Meteo§Tiempo§Météo§Meteorologia
+Weather icon§Icona meteo§Icono del tiempo§Icône météo§Ícone do tempo
+Wednesday§Mercoledì§Miércoles§Mercredi§Quarta-feira
+Welcome§Benvenuto§Bienvenido§Bienvenue§Bem-vindo
+Wellness§Benessere§Bienestar§Bien-être§Bem-estar
+Wheels§Ruote§§§
+Width§Larghezza§§§
+wifi wi-fi network internet connection wireless password§wifi wi-fi rete internet connessione wireless password§wifi wi-fi red internet conexión inalámbrica contraseña§wifi wi-fi réseau internet connexion sans fil mot de passe§wifi wi-fi rede internet ligação sem fios palavra-passe
+Wind§Vento§Viento§Vent§Vento
+Windows games are installed with Bottles, which is free. Every game you add in Bottles appears by itself in the Arcade, with its cover.§I giochi per Windows si installano con Bottles, gratuito. Ogni gioco che aggiungi in Bottles compare da solo nell'Arcade, con la sua copertina.§Los juegos de Windows se instalan con Bottles, que es gratuito. Cada juego que añadas en Bottles aparece solo en el Arcade, con su carátula.§Les jeux Windows s'installent avec Bottles, gratuit. Chaque jeu ajouté dans Bottles apparaît tout seul dans l'Arcade, avec sa jaquette.§Os jogos do Windows instalam-se com o Bottles, que é gratuito. Cada jogo que adicionar no Bottles aparece sozinho no Arcade, com a sua capa.
+Wireless controllers can be paired if they support Bluetooth Classic. See the user manual for more information on controller compatibility.§È possibile abbinare i controller wireless se supportano Bluetooth Classic. Consultare il manuale d'uso per informazioni aggiuntive sulla compatibilità dei controller.§Se pueden emparejar mandos inalámbricos si son compatibles con Bluetooth Classic. Consulta el manual de uso para más información sobre la compatibilidad de los mandos.§Les manettes sans fil peuvent être associées si elles prennent en charge le Bluetooth Classic. Consultez le manuel d'utilisation pour plus d'informations sur la compatibilité des manettes.§É possível emparelhar comandos sem fios se suportarem Bluetooth Classic. Consulte o manual do utilizador para mais informações sobre a compatibilidade dos comandos.
+Without this key the map can't work. You can still add it later.§Senza questa chiave la mappa non può funzionare. Puoi comunque aggiungerla più tardi.§Sin esta clave el mapa no puede funcionar. Puedes añadirla más tarde.§Sans cette clé, la carte ne peut pas fonctionner. Vous pouvez quand même l'ajouter plus tard.§Sem esta chave o mapa não pode funcionar. Pode adicioná-la mais tarde.
+Work§Lavoro§Trabajo§Travail§Trabalho
+Work set§Lavoro impostato§Trabajo establecido§Travail défini§Trabalho definido
+Workout music§Musica per l'allenamento§Música para entrenar§Musique pour s'entraîner§Música para treinar
+Yes§Sì§§§
+Yes, that's it§Sì, è questo§§§
+Yesterday§Ieri§Ayer§Hier§Ontem
+You can add at most two stops§Puoi aggiungere al massimo due tappe§Puedes añadir como máximo dos paradas§Vous pouvez ajouter au maximum deux étapes§Pode adicionar no máximo duas paragens
+You're not subscribed to any podcast.\nFind one and tap ✓ to subscribe.§Non sei iscritto a nessun podcast.\nCercane uno e tocca ✓ per iscriverti.§No estás suscrito a ningún podcast.\nBusca uno y toca ✓ para suscribirte.§Vous n'êtes abonné à aucun podcast.\nTrouvez-en un et touchez ✓ pour vous abonner.§Não subscreveu nenhum podcast.\nProcure um e toque em ✓ para subscrever.
+Your car is ready: doors, hood, trunk, wheels and color.§La tua auto è pronta: portiere, cofano, baule, ruote e colore.§§§
+YouTube Music rejected this sign-in. Try signing in again in the panel.§YouTube Music ha rifiutato questo accesso. Riprova ad accedere nel riquadro.§YouTube Music rechazó este inicio de sesión. Vuelve a iniciar sesión en el panel.§YouTube Music a refusé cette connexion. Réessayez de vous connecter dans le cadre.§O YouTube Music recusou este início de sessão. Tente iniciar sessão novamente no painel.
+YT Music§YT Music§YT Music§YT Music§YT Music
+» on Google§» su Google§» en Google§» sur Google§» no Google
+‹  Explore§‹  Esplora§‹  Explorar§‹  Explorer§‹  Explorar
+⚠ Music service unreachable§⚠ Servizio musica non raggiungibile§⚠ Servicio de música inaccesible§⚠ Service de musique injoignable§⚠ Serviço de música inacessível
+⚠ Unable to open: §⚠ Impossibile aprire: §⚠ No se puede abrir: §⚠ Impossible d'ouvrir : §⚠ Não é possível abrir: 
+✓  You subscribed to §✓  Ti sei iscritto a §✓  Te has suscrito a §✓  Vous êtes abonné à §✓  Subscreveu 
+＋ New playlist§＋ Nuova playlist§＋ Nueva lista§＋ Nouvelle playlist§＋ Nova playlist
+Paste the key first§Incolla prima la chiave§§§
+No internet connection§Nessuna connessione a internet§§§
+Valid key§Chiave valida§§§
+Invalid key: check that you copied all of it§Chiave non valida: controlla di averla copiata tutta§§§
+Too many attempts in a short time: try again in a minute§Troppe prove in poco tempo: riprova fra un minuto§§§
+USB not available§USB non disponibile§§§
+The dongle is not responding§Il dongle non risponde§§§
+Missing USB permissions for the dongle§Permessi USB mancanti per il dongle§§§
+Phone§Telefono§§§
+Mapbox token missing§Token Mapbox mancante§§§
+GPS position not available§Posizione GPS non disponibile§§§
+Network error: route not calculated, retrying shortly§Errore di rete: percorso non calcolato, riprovo tra poco§§§
+No route found§Nessun percorso trovato§§§
+
+System check§Controllo del sistema§§§
+Volta OS needs a few programs and Python libraries. Without the ones marked as required the interface will not work at 100%: some features (music, maps, phone, Wi-Fi…) will be missing or limited. Install what is missing with the commands below, then tap Check again.§Volta OS ha bisogno di alcuni programmi e librerie Python. Senza quelli segnati come obbligatori l'interfaccia non funzionerà al 100%: alcune funzioni (musica, mappe, telefono, Wi-Fi…) mancheranno o saranno limitate. Installa ciò che manca con i comandi qui sotto, poi tocca Controlla di nuovo.§§§
+Everything required is installed.§Tutto ciò che serve è installato.§§§
+Check again§Controlla di nuovo§§§
+Missing§Mancante§§§
+Not installed§Non installato§§§
+ of § di §§§
