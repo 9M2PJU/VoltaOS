@@ -317,7 +317,7 @@ def _ctx_tracks(ctx):
     kind, _, arg = (ctx or "all").partition(":")
     if kind == "album": return sorted([t for t in tr if t["akey"] == arg], key=_album_sort)
     if kind == "artist": return sorted([t for t in tr if (t.get("albumartist") or t["artist"]).lower() == arg.lower() or t["artist"].lower() == arg.lower()], key=_album_sort)
-    if kind == "src":                                            # src:pc (cartella Musica) | src:usb (chiavette)
+    if kind == "src":                                            # src:pc (Music folder) | src:usb (USB sticks)
         ids = _kind_ids(arg)
         return sorted([t for t in tr if t["src"] in ids], key=lambda t: t["title"].lower())
     if kind == "likes":
@@ -597,7 +597,7 @@ def start_mpris():
             r, p = Root(), Player()
             bus.export("/org/mpris/MediaPlayer2", r); bus.export("/org/mpris/MediaPlayer2", p)
             _mp.update(loop=asyncio.get_running_loop(), player=p, bus=bus, ok=True, claimed=False)
-            log("MPRIS pronto (il nome sul bus viene preso alla prima riproduzione)")
+            log("MPRIS ready (the bus name is taken at first playback)")
             await bus.wait_for_disconnect()
         try: asyncio.run(main())
         except Exception as e: log("MPRIS not active:", repr(e)[:100]); _mp["ok"] = False

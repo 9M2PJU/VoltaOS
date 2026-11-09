@@ -1,18 +1,18 @@
-// gamescope_seat_compat.c — shim LD_PRELOAD SOLO per gamescope.
+// gamescope_seat_compat.c — LD_PRELOAD shim for gamescope ONLY.
 //
-// Problema: gamescope (3.15 .. 3.16.x) accetta wl_seat solo se la versione
-// annunciata dal compositor e' >= 8 (WaylandBackend.cpp: "uVersion >= 8u").
-// Il compositor Volta e' QtWayland, che annuncia SEMPRE wl_seat versione 4
-// (qwaylandseat.cpp: d->init(display, 4)). Risultato:
+// Problem: gamescope (3.15 .. 3.16.x) accepts wl_seat only if the version
+// announced by the compositor is >= 8 (WaylandBackend.cpp: "uVersion >= 8u").
+// The Volta compositor is QtWayland, which ALWAYS announces wl_seat version 4
+// (qwaylandseat.cpp: d->init(display, 4)). Result:
 //   "xdg_backend: Couldn't create Wayland input objects."
 //
-// Questo shim, caricato solo dentro gamescope:
-//  1) mostra a gamescope wl_seat come versione 8 (dal callback del registry)
-//  2) quando gamescope fa il bind a v8, lo riporta alla versione vera (4),
-//     cosi' il server non risponde con "invalid version".
-// gamescope non usa nulla di piu' recente della v3 (wl_pointer_release /
-// wl_keyboard_release), quindi con la v4 funziona tutto.
-// Non tocca nessun altro processo (si attiva solo se il nome e' "gamescope*").
+// This shim, loaded only inside gamescope:
+//  1) shows wl_seat to gamescope as version 8 (from the registry callback)
+//  2) when gamescope binds v8, it brings it back to the real version (4),
+//     so the server does not answer with "invalid version".
+// gamescope uses nothing newer than v3 (wl_pointer_release /
+// wl_keyboard_release), so everything works with v4.
+// It does not touch any other process (it is active only if the name is "gamescope*").
 #define _GNU_SOURCE
 #include <dlfcn.h>
 #include <errno.h>
@@ -93,8 +93,8 @@ static uint32_t seat_real_version(uint32_t name)
     return 0;
 }
 
-// Riscrive (se serve) i parametri di un bind a wl_seat. a[0]=name a[1]=nome
-// interfaccia a[2]=version (vedi wl_registry_bind in wayland-client-protocol.h)
+// Rewrites (if needed) the parameters of a bind to wl_seat. a[0]=name a[1]=interface
+// name a[2]=version (see wl_registry_bind in wayland-client-protocol.h)
 static void fix_bind(struct wl_proxy *proxy, uint32_t opcode, const struct wl_interface *iface,
                      uint32_t *version, uintptr_t *a)
 {
@@ -110,9 +110,9 @@ static void fix_bind(struct wl_proxy *proxy, uint32_t opcode, const struct wl_in
     }
 }
 
-// Gli argomenti variadici di libwayland sono tutti di classe "intero" su
-// x86-64 (uint/int/puntatori/fd/new_id=NULL): li rileggo come uintptr_t e
-// li giro identici alla funzione vera. Solo la bind a wl_seat viene toccata.
+// The variadic arguments of libwayland are all of "integer" class on
+// x86-64 (uint/int/pointers/fd/new_id=NULL): I read them back as uintptr_t and
+// pass them unchanged to the real function. Only the bind to wl_seat is touched.
 struct wl_proxy *wl_proxy_marshal_flags(struct wl_proxy *proxy, uint32_t opcode,
                                         const struct wl_interface *interface,
                                         uint32_t version, uint32_t flags, ...)
@@ -130,7 +130,7 @@ struct wl_proxy *wl_proxy_marshal_flags(struct wl_proxy *proxy, uint32_t opcode,
                 a[0], a[1], a[2], a[3], a[4], a[5], a[6], a[7], a[8], a[9], a[10], a[11]);
 }
 
-// Versione vecchia dell'API (libwayland < 1.20), per sicurezza.
+// Old version of the API (libwayland < 1.20), just in case.
 struct wl_proxy *wl_proxy_marshal_constructor_versioned(struct wl_proxy *proxy, uint32_t opcode,
                                                         const struct wl_interface *interface,
                                                         uint32_t version, ...)

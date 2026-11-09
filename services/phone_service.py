@@ -508,7 +508,7 @@ class MapClient:
             # path to PushMessage with the session already elsewhere produced
             # a nonsensical navigation (relative, not from root). We
             # position explicitly in outbox BEFORE sending, then
-            # passiamo "" (cartella corrente) a PushMessage.
+            # we pass "" (current folder) to PushMessage.
             await self._goto_folder("telecom/msg/outbox")
 
             Path(tmp_path).write_text(bmsg, encoding="utf-8")

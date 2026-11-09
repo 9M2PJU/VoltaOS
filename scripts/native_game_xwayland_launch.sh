@@ -161,7 +161,7 @@ if [ -n "$BOTTLE_DIR" ] && [ -f "$BOTTLE_DIR/user.reg" ]; then
     REG_PATCHED=1
     echo "[native_game_xwayland_launch] Bottle '${BOTTLE}' registry forced to Graphics=x11 (backup in ${REGFILE}.volta-bak)" >&2
 else
-    echo "[native_game_xwayland_launch] WARNING: user.reg not found for bottle '${BOTTLE}' (searched under ${BOTTLES_BASE}) — non posso forzare il driver grafico, il problema del toggle Wayland potrebbe persistere. Se la bottiglia esiste ma non viene trovata, dimmi il nome esatto della sua cartella e aggiusto la ricerca." >&2
+    echo "[native_game_xwayland_launch] WARNING: user.reg not found for bottle '${BOTTLE}' (searched under ${BOTTLES_BASE}) — cannot force the graphics driver, so the Wayland toggle problem may persist. If the bottle exists but is not found, check the exact name of its folder." >&2
 fi
 
 # ── Guaranteed cleanup, even on abnormal exit ──────────────────

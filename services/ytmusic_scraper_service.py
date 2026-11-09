@@ -367,7 +367,7 @@ def _extract_sub(video_id, client):
     return {"url": out[0], "headers": dict(hdr or {}), "filesize": fs, "fmt": out[3] if len(out) > 3 else ""}
 
 # ── BITCHORD-RESOLVER v1 ── BitChord's engine (StreamResolver + InnerTubeX) as the first resolver ──
-# Un programma Java/Kotlin (cartella ~/BitChord-src, comando runResolver) tiene sempre pronti token e
+# A Java/Kotlin program (folder ~/BitChord-src, runResolver command) always keeps tokens and
 # ciphering and answers on 127.0.0.1:8097. The service starts it in the background; until it is ready
 # (about 30 s after startup) or if it does not answer, yt-dlp is used as before.
 import atexit as _atexit, signal as _signal, subprocess as _sp
@@ -1898,7 +1898,7 @@ def ui_library():
         items = []
         try:
             if filter_type == "playlists":
-                items.append({"title": "Musica che ti piace", "subtitle": "Auto Playlist", "cover": "", "playlistId": "LM", "type": "Playlist", "isContext": True})
+                items.append({"title": "Liked Music", "subtitle": "Auto Playlist", "cover": "", "playlistId": "LM", "type": "Playlist", "isContext": True})
                 items.extend([pd for p in yt.get_library_playlists(limit=100) if (pd := playlist_to_dict(p))])
             elif filter_type == "songs":
                 items.extend([sd for i, s in enumerate(yt.get_library_songs(limit=100)) if (sd := song_to_dict(s, i, bypass_filter=True))])

@@ -1,35 +1,39 @@
-# generato da pulisci_progetto.py
+# Build output and local data
 build/
 _archivio/
-.git/
 __pycache__/
+*.pyc
 *.bak*
 *.orig
-*.pyc
 venv/
 data/
 sc_downloader/
-# SEGRETI: non pubblicare mai
+
+# SECRETS: never publish
 token.json
 credentials.json
 *.key
 .env
+# real API keys (template: keys.env.example)
+keys.env
+chiavi.env
+# cache folder (old location of the Spotify token; it now lives in ~/.config/volta/)
+.cache
+
 # Qt Creator / IDE
 .qtcreator/
 CMakeLists.txt.user*
 *.user
-# binari compilati (gamescope_seat_compat.so si rigenera da .c)
+
+# Compiled binaries (gamescope_seat_compat.so is rebuilt from the .c file)
 *.so
 *.o
-# token Spotify (vecchia posizione; ora sta in ~/.config/volta/) — SEGRETO
-.cache
-# file troppo grandi per GitHub (>100 MB) e dati personali
-assets/toybox/romance.mp4
-# real API keys (template: keys.env.example)
-keys.env
-chiavi.env
-
-# MapLibre precompilato (third_party/maplibre): i .so qui servono nel repo
+# Prebuilt MapLibre (third_party/maplibre): the .so files in there must stay in the repo
 !third_party/maplibre/**/*.so*
+
+# Packaged builds and personal screenshots
 *.AppImage
 Screenshot*.png
+
+# Too large for GitHub (>100 MB)
+assets/toybox/romance.mp4

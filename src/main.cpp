@@ -62,7 +62,7 @@ static QString projectDir()
         const QString d = QDir::cleanPath(c);
         if (QFileInfo::exists(d + "/services/map_proxy.py")) {
             cached = d;
-            qDebug().noquote() << "[progetto] cartella:" << cached;
+            qDebug().noquote() << "[project] folder:" << cached;
             return cached;
         }
     }
