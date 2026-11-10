@@ -33,7 +33,7 @@ Rectangle {
             "env WAYLAND_DISPLAY=wayland-volta google-chrome " +
             "--app=" + chromeStartUrl + " " +
             "--user-data-dir=$HOME/.config/volta-chrome " +
-            "--ozone-platform=wayland --password-store=basic --lang=it " +
+            "--ozone-platform=wayland --password-store=basic --lang=" + Lang.code + " " +
             "--class=volta-browser --disable-features=TranslateUI " +
             "--no-first-run --no-default-browser-check --remote-debugging-port=9222"])
         chromeRetry.restart()
@@ -79,6 +79,8 @@ Rectangle {
         storageName: "VoltaBrowserData"
         persistentCookiesPolicy: WebEngineProfile.ForcePersistentCookies
         httpUserAgent: browser.desktopUA
+        // the sites choose the language from this header (and the country from the IP address)
+        httpAcceptLanguage: Lang.code + ", en;q=0.8"
     }
 
     // ── ADDRESS BAR (EV style) ────────────────────────────────────
@@ -352,14 +354,31 @@ Rectangle {
     Timer { id: suggestCloseTimer; interval: 220; onTriggered: browser.suggestOpen = false }
     Timer { id: saveVisitedTimer; interval: 4000; onTriggered: browser._saveVisited() }
 
-    readonly property var knownSites: [
-        "google.com", "youtube.com", "wikipedia.org", "facebook.com", "instagram.com",
-        "amazon.it", "netflix.com", "twitch.tv", "reddit.com", "whatsapp.com",
-        "repubblica.it", "corriere.it", "ansa.it", "gazzetta.it", "ilmeteo.it",
-        "spotify.com", "github.com", "linkedin.com", "primevideo.com", "raiplay.it",
-        "subito.it", "ebay.it", "openstreetmap.org", "maps.google.com",
-        "mail.google.com", "x.com", "tiktok.com", "disneyplus.com", "dazn.com"
-    ]
+    // Country of the user (from the system locale, e.g. "it_IT" -> "IT"); if the locale has no
+    // country, it is guessed from the language chosen in the interface.
+    readonly property string userCountry: {
+        var p = Qt.locale().name.split("_")
+        if (p.length > 1 && p[1].length === 2) return p[1].toUpperCase()
+        return ({ it: "IT", es: "ES", fr: "FR", pt: "PT" })[Lang.code] || ""
+    }
+    // Suggestions of the address bar: worldwide sites for everybody; shops follow the country's
+    // domain; the local sites of a country appear only for the people living there.
+    readonly property var knownSites: {
+        var c = userCountry
+        var amazon = ({ IT: "it", DE: "de", FR: "fr", ES: "es", PT: "es", GB: "co.uk" })[c] || "com"
+        var ebay = ({ IT: "it", DE: "de", FR: "fr", ES: "es", GB: "co.uk" })[c] || "com"
+        var list = [
+            "google.com", "youtube.com", "wikipedia.org", "facebook.com", "instagram.com",
+            "amazon." + amazon, "netflix.com", "twitch.tv", "reddit.com", "whatsapp.com",
+            "spotify.com", "github.com", "linkedin.com", "primevideo.com",
+            "ebay." + ebay, "openstreetmap.org", "maps.google.com",
+            "mail.google.com", "x.com", "tiktok.com", "disneyplus.com", "dazn.com"
+        ]
+        if (c === "IT")
+            list = list.concat(["repubblica.it", "corriere.it", "ansa.it", "gazzetta.it", "ilmeteo.it",
+                                "raiplay.it", "subito.it"])
+        return list
+    }
 
     function _loadPrefs() {
         try { var b = JSON.parse(browserPrefs.bookmarks); bookmarkList = Array.isArray(b) ? b : [] }

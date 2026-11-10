@@ -262,6 +262,9 @@ Rectangle {
         storageName: "VoltaTheaterData"
         persistentCookiesPolicy: WebEngineProfile.ForcePersistentCookies
         httpUserAgent: "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+        // The service addresses are the generic ones (.com): each site sends the user to its own
+        // country from the IP address, and picks the language from this header.
+        httpAcceptLanguage: Lang.code + ", en;q=0.8"
     }
 
     Item {
