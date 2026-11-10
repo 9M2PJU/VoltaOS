@@ -125,9 +125,16 @@ the settings. The interface is translated into Italian, English, Spanish, French
    [free API keys](docs/api-keys.md) (maps, search, weather, Spotify).
 3. **Connect the hardware** you have: see [docs/hardware.md](docs/hardware.md).
 
+Quick start on Debian 13 / Ubuntu (the AppImage needs a few system libraries, [full list here](docs/installation.md#2-install-what-it-needs-debian--ubuntu)):
+
 ```bash
-chmod +x VoltaOS-x86_64.AppImage
-./VoltaOS-x86_64.AppImage
+sudo apt install libgl1 libegl1 libopengl0 libgbm1 libdrm2 libx11-6 libx11-xcb1 libxcb1 libxcb-dri3-0 \
+    libxcb-cursor0 libfontconfig1 libfreetype6 libexpat1 libwayland-client0 libwayland-server0 \
+    libasound2t64 libusb-1.0-0 libcom-err2 libfuse2t64 \
+    python3 python3-pip python3-dbus python3-gi mpv network-manager bluez bluez-obexd pipewire-pulse pulseaudio-utils
+pip install --user --break-system-packages -r https://raw.githubusercontent.com/Omardigio/VoltaOS/main/requirements.txt
+chmod +x VoltaOS-*-x86_64.AppImage
+./VoltaOS-*-x86_64.AppImage
 ```
 
 * * *

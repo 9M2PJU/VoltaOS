@@ -5,19 +5,78 @@ It does not run on Windows or macOS.
 
 ## AppImage (no compiling)
 
-Download `VoltaOS-<version>-x86_64.AppImage` from the repository's **Releases** page.
+The AppImage already contains Qt, the maps plugin, the 3D car model and the Volta OS services. It does **not**
+contain the system libraries and programs below, because they come from your distribution. You install them
+once, with the commands in step 2.
+
+### 1. Download
+
+Download `VoltaOS-<version>-x86_64.AppImage` from the repository's
+[**Releases**](https://github.com/Omardigio/VoltaOS/releases) page.
+
+### 2. Install what it needs (Debian / Ubuntu)
+
+**a) Libraries to start the app.** On a normal desktop with Wayland most of them are already there; the command
+installs only what is missing:
 
 ```bash
-sudo apt install python3 python3-pip python3-dbus python3-gi mpv libusb-1.0-0 \
-    libxcb-cursor0 network-manager bluez bluez-obexd pipewire-pulse
-pip install --user --break-system-packages -r requirements.txt   # Python services
+sudo apt install libgl1 libegl1 libopengl0 libgbm1 libdrm2 libx11-6 libx11-xcb1 libxcb1 libxcb-dri3-0 \
+    libxcb-cursor0 libfontconfig1 libfreetype6 libexpat1 libwayland-client0 libwayland-server0 \
+    libasound2t64 libusb-1.0-0 libcom-err2 libfuse2t64
+```
+
+On Ubuntu older than 24.04 and on Debian 12 the names are `libasound2` and `libfuse2`.
+
+**b) Programs the features rely on.** Without them the interface starts but that part does not work:
+
+```bash
+sudo apt install python3 python3-pip python3-dbus python3-gi mpv network-manager \
+    bluez bluez-obexd pipewire-pulse pulseaudio-utils
+```
+
+**c) Python libraries of the services:**
+
+```bash
+pip install --user --break-system-packages -r https://raw.githubusercontent.com/Omardigio/VoltaOS/main/requirements.txt
+```
+
+(`--break-system-packages` is needed on Debian 13 and recent Ubuntu; on older systems remove it.)
+
+### 3. Run
+
+```bash
 chmod +x VoltaOS-*-x86_64.AppImage
 ./VoltaOS-*-x86_64.AppImage
 ```
 
-Qt, the maps plugin and the car model are already inside the file. If it does not start, install
-`libfuse2t64` or run it with `--appimage-extract-and-run`. To try it in a window:
-`./VoltaOS-*.AppImage --window=1280x800`.
+To try it in a window: `./VoltaOS-*-x86_64.AppImage --window=1280x800`.
+If it does not start, run it with `--appimage-extract-and-run` (this also works without FUSE).
+
+> **Other distributions.** The libraries and programs are the same, but the package names change: look for
+> the equivalents of the table below. Debian 13 is the only tested system.
+
+### What is needed for what
+
+| Package | What it is for | Required |
+|---|---|---|
+| `libgl1`, `libegl1`, `libopengl0`, `libgbm1`, `libdrm2` | graphics (OpenGL) | yes, to start |
+| `libx11-6`, `libx11-xcb1`, `libxcb1`, `libxcb-dri3-0`, `libxcb-cursor0` | window system (X11 / XWayland) | yes, to start |
+| `libwayland-client0`, `libwayland-server0` | Wayland (the UI is also a Wayland compositor) | yes, to start |
+| `libfontconfig1`, `libfreetype6`, `libexpat1` | fonts | yes, to start |
+| `libasound2t64` | audio | yes, to start |
+| `libusb-1.0-0` | CarPlay / Android Auto dongle | yes, to start |
+| `libcom-err2` | needed by the bundled libraries | yes, to start |
+| `libfuse2t64` | running AppImages (not needed with `--appimage-extract-and-run`) | optional |
+| `mpv` | audio playback (YT Music, Podcasts, Music, radio) | yes, for music |
+| `python3`, `python3-dbus`, `python3-gi` + the Python libraries | background services | yes |
+| `network-manager` | Wi-Fi in the settings | yes, for Wi-Fi |
+| `bluez`, `bluez-obexd` | Bluetooth, contacts, SMS, music from the phone | yes, for the phone |
+| `pipewire-pulse` (or PulseAudio) + `pulseaudio-utils` (`pactl`) | volume, audio devices, calls | yes, for audio |
+| `spotifyd` | Spotify Connect (play Spotify from the UI) | optional |
+| `easyeffects` | equalizer and audio presets | optional |
+| `gamescope` + Bottles | Windows games (Arcade) | optional |
+
+The start-up libraries list was checked on a clean Debian 13: with those packages installed the AppImage starts.
 
 Your data (keys, favorites, cache) lives in `~/.local/share/volta_os/`.
 
@@ -63,18 +122,7 @@ cmake --build build/Release -j$(nproc)
 
 ### System
 
-| Package | What it is for | Required |
-|---|---|---|
-| `mpv` | audio playback (YT Music, Podcasts, Music, radio) | yes |
-| `python3`, `python3-dbus`, `python3-gi` | background services | yes |
-| `network-manager` | Wi-Fi in the settings | yes |
-| `bluez`, `bluez-obexd` | Bluetooth, contacts, SMS, music from the phone | yes (for the phone) |
-| `pipewire-pulse` (or PulseAudio) + `pactl` | volume, audio devices, calls | yes |
-| `libusb-1.0-0` | CarPlay / Android Auto dongle | yes |
-| `libxcb-cursor0` | starting the AppImage | yes |
-| `spotifyd` | Spotify Connect (play Spotify from the UI) | optional |
-| `easyeffects` | equalizer and audio presets | optional |
-| `gamescope` + Bottles | Windows games (Arcade) | optional |
+See the table [What is needed for what](#what-is-needed-for-what) above.
 
 ### Python (`requirements.txt`)
 

@@ -23,7 +23,7 @@
 - **YT Music does not load**: sign in again; check `mpv` and `yt-dlp` (`pip install -U yt-dlp`).
 - **Spotify does not play**: it needs `spotifyd` and, to play, a Premium account. Check the
   *Redirect URIs* of the Spotify app.
-- **Podcasts "python-mpv missing"**: `pip install -r requirements.txt`.
+- **Podcasts "python-mpv missing"**: `pip install --user --break-system-packages -r https://raw.githubusercontent.com/Omardigio/VoltaOS/main/requirements.txt`.
 - **Music does not see the USB stick**: it must be **mounted** in `/media`, `/run/media` or `/mnt`; open the
   *USB* tab. If your desktop does not mount it automatically, mount it from the file manager.
 - **Radio without stations**: check the network; choose a country at the top of the page.
