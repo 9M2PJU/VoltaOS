@@ -544,6 +544,16 @@ int main(int argc, char *argv[])
         const QString ml = projectDir() + "/third_party/maplibre";
         if (QFileInfo::exists(ml + "/qml/MapLibre/qmldir")) {
             // the libraries must be loaded first, with the full path
+            // The plugin's libraries have no search path of their own: their dependencies (Qt SQL from the
+            // AppImage, ICU 76 next to them) must already be loaded, otherwise on a system without Qt
+            // the map does not start. Files that do not exist are skipped (normal installations).
+            const QString appLib = QCoreApplication::applicationDirPath() + "/../lib/";
+            for (const QString &dep : {appLib + "libQt6Sql.so.6", appLib + "libQt6Positioning.so.6",
+                                       appLib + "libQt6Location.so.6",
+                                       ml + "/lib/libicudata.so.76", ml + "/lib/libicuuc.so.76",
+                                       ml + "/lib/libicui18n.so.76"}) {
+                if (QFileInfo::exists(dep)) QLibrary(dep).load();
+            }
             for (const char *lib : {"libQMapLibre.so.4", "libQMapLibreQuickPrivate.so.4", "libQMapLibreLocation.so.4"}) {
                 QLibrary l(ml + "/lib/" + lib);
                 l.setLoadHints(QLibrary::ExportExternalSymbolsHint);
