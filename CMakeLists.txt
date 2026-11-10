@@ -518,3 +518,55 @@ set_target_properties(VoltaOS PROPERTIES
     WIN32_EXECUTABLE TRUE
     MACOSX_BUNDLE TRUE
 )
+
+# ── Install rules (FHS) + native packages (.deb / .rpm) ───────────────────────
+# Layout mirrors scripts/build_appimage.sh AppDir:
+#   <prefix>/bin/VoltaOS + <prefix>/share/volta_os/{services,scripts,assets,...}
+# src/main.cpp projectDir() finds the data dir via
+#   <exe>/../share/volta_os, /usr/share/volta_os, /usr/local/share/volta_os,
+# so a default -DCMAKE_INSTALL_PREFIX=/usr install works without VOLTA_DIR.
+include(GNUInstallDirs)
+
+install(TARGETS VoltaOS RUNTIME DESTINATION ${CMAKE_INSTALL_BINDIR})
+install(DIRECTORY services scripts assets third_party i18n
+    DESTINATION ${CMAKE_INSTALL_DATADIR}/volta_os
+    PATTERN "__pycache__" EXCLUDE
+    PATTERN "*.pyc" EXCLUDE)
+install(FILES keys.env.example DESTINATION ${CMAKE_INSTALL_DATADIR}/volta_os)
+install(FILES packaging/volta-os.desktop DESTINATION ${CMAKE_INSTALL_DATADIR}/applications)
+install(FILES packaging/volta-os.png
+    DESTINATION ${CMAKE_INSTALL_DATADIR}/pixmaps RENAME volta-os.png)
+
+set(CPACK_PACKAGE_NAME "volta-os")
+set(CPACK_PACKAGE_VENDOR "VoltaOS contributors")
+set(CPACK_PACKAGE_CONTACT "https://github.com/Omardigio/VoltaOS/issues")
+set(CPACK_PACKAGE_VERSION "${PROJECT_VERSION}")
+set(CPACK_PACKAGE_DESCRIPTION_SUMMARY "Volta OS - in-car touchscreen interface for Linux (Qt6/QML)")
+set(CPACK_PACKAGE_DESCRIPTION "Volta OS is a full-screen in-car infotainment interface for Linux, \
+written in Qt 6 / QML. Map, music, phone, CarPlay, video and games in one \
+touchscreen UI; it also acts as a Wayland compositor so native apps open inside the UI.")
+set(CPACK_RESOURCE_FILE_LICENSE "${CMAKE_CURRENT_SOURCE_DIR}/LICENSE")
+set(CPACK_GENERATOR "DEB;RPM")
+
+# --- .deb (Debian/Ubuntu) ---
+# Library deps (Qt, libusb, ffmpeg, ...) are auto-detected via dpkg-shlibdeps;
+# CPACK_DEBIAN_PACKAGE_DEPENDS only lists non-library runtime deps.
+set(CPACK_DEBIAN_PACKAGE_SECTION "utils")
+set(CPACK_DEBIAN_PACKAGE_PRIORITY "optional")
+set(CPACK_DEBIAN_PACKAGE_SHLIBDEPS ON)
+set(CPACK_DEBIAN_PACKAGE_DEPENDS
+    "mpv, python3, python3-dbus, python3-gi, network-manager, bluez, bluez-obexd, pipewire-pulse | pulseaudio")
+set(CPACK_DEBIAN_PACKAGE_SUGGESTS
+    "spotifyd, easyeffects, gamescope, python3-pip")
+set(CPACK_DEBIAN_PACKAGE_HOMEPAGE "https://github.com/Omardigio/VoltaOS")
+
+# --- .rpm (Fedora/openSUSE) ---
+set(CPACK_RPM_PACKAGE_SUMMARY "${CPACK_PACKAGE_DESCRIPTION_SUMMARY}")
+set(CPACK_RPM_PACKAGE_LICENSE "GPL-3.0-only")
+set(CPACK_RPM_PACKAGE_GROUP "Amusements/Graphics")
+set(CPACK_RPM_PACKAGE_URL "https://github.com/Omardigio/VoltaOS")
+set(CPACK_RPM_PACKAGE_REQUIRES
+    "mpv, python3, python3-dbus, NetworkManager, bluez, pipewire-pulseaudio")
+set(CPACK_RPM_PACKAGE_SUGGESTS "spotifyd, easyeffects, gamescope")
+
+include(CPack)

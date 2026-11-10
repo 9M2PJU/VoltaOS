@@ -44,9 +44,11 @@
 #include <QLibrary>
 
 // Project folder (Python scripts, assets, keys.env). Order:
-//   1. variabile d'ambiente VOLTA_DIR
+//   1. VOLTA_DIR environment variable
 //   2. going up from the executable's folder (build/<config>/VoltaOS -> ../..)
-//   3. ~/volta_os
+//   3. FHS install locations (/usr/share/volta_os, /usr/local/share/volta_os,
+//      also relative to the binary: <exe>/../share/volta_os for /usr/bin/VoltaOS)
+//   4. ~/volta_os
 // It is recognized by the file services/map_proxy.py.
 static QString projectDir()
 {
@@ -57,6 +59,9 @@ static QString projectDir()
     if (!env.isEmpty()) candidates << env;
     const QString exe = QCoreApplication::applicationDirPath();
     candidates << exe << exe + "/.." << exe + "/../.." << exe + "/../../.."
+               << exe + "/../share/volta_os"
+               << QStringLiteral("/usr/share/volta_os")
+               << QStringLiteral("/usr/local/share/volta_os")
                << QDir::homePath() + "/volta_os";
     for (const QString &c : candidates) {
         const QString d = QDir::cleanPath(c);
