@@ -1,0 +1,38 @@
+# Maintainer: VoltaOS contributors <https://github.com/Omardigio/VoltaOS/issues>
+# AUR package for Volta OS - builds from git main.
+pkgname=volta-os-git
+pkgver=1.0.r0.g0000000
+pkgrel=1
+pkgdesc="In-car touchscreen interface for Linux (Qt6/QML) - git build"
+arch=('x86_64')
+url="https://github.com/Omardigio/VoltaOS"
+license=('GPL-3.0-only')
+depends=('mpv' 'python' 'python-dbus' 'python-gobject' 'networkmanager' 'bluez'
+         'pipewire-pulse' 'libgl' 'libx11' 'libxcb' 'fontconfig' 'freetype2'
+         'wayland' 'alsa-lib' 'libusb' 'ffmpeg'
+         'qt6-base' 'qt6-declarative' 'qt6-quick3d' 'qt6-webengine'
+         'qt6-multimedia' 'qt6-websockets' 'qt6-positioning' 'qt6-location'
+         'qt6-virtualkeyboard' 'qt6-wayland')
+makedepends=('git' 'cmake' 'gcc' 'pkg-config' 'wayland-protocols')
+optdepends=('spotifyd: Spotify Connect playback'
+            'easyeffects: equalizer and audio presets'
+            'gamescope: Windows games in the Arcade')
+provides=('volta-os')
+conflicts=('volta-os' 'volta-os-bin')
+source=("volta-os::git+https://github.com/Omardigio/VoltaOS.git")
+sha256sums=('SKIP')
+
+pkgver() {
+    cd volta-os
+    git describe --long --tags 2>/dev/null | sed 's/^v//;s/\([^-]*-g\)/r\1/;s/-/./g' \
+        || printf "1.0.r%s.g%s" "$(git rev-list --count HEAD)" "$(git rev-parse --short HEAD)"
+}
+
+build() {
+    cmake -B build -S volta-os -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/usr
+    cmake --build build -j"$(nproc)"
+}
+
+package() {
+    DESTDIR="$pkgdir" cmake --install build
+}

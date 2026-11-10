@@ -1,0 +1,56 @@
+name: packaging
+
+on:
+  push:
+    paths:
+      - "CMakeLists.txt"
+      - "src/main.cpp"
+      - "packaging/**"
+      - "scripts/install-remote.sh"
+      - ".github/workflows/packaging.yml"
+  pull_request:
+    paths:
+      - "CMakeLists.txt"
+      - "src/main.cpp"
+      - "packaging/**"
+      - "scripts/install-remote.sh"
+      - ".github/workflows/packaging.yml"
+  workflow_dispatch:
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install linters
+        run: sudo apt update && sudo apt install -y shellcheck desktop-file-utils
+      - name: Shell syntax + lint
+        run: |
+          bash -n scripts/install-remote.sh
+          bash -n packaging/aur/volta-os-bin/PKGBUILD
+          bash -n packaging/aur/volta-os-git/PKGBUILD
+          shellcheck -S warning scripts/install-remote.sh
+      - name: Desktop file
+        run: desktop-file-validate packaging/volta-os.desktop
+
+  configure:
+    # Validates the install()/CPack block with real distro Qt packages.
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install build deps
+        run: |
+          sudo apt update
+          sudo apt install -y build-essential cmake pkg-config git mpv libwayland-dev \
+            wayland-protocols libx11-dev libusb-1.0-0-dev libavcodec-dev libavutil-dev \
+            python3 python3-pip python3-dbus python3-gi network-manager bluez \
+            qt6-base-dev qt6-base-private-dev qt6-declarative-dev \
+            qt6-declarative-private-dev qt6-quick3d-dev qt6-webengine-dev \
+            qt6-multimedia-dev qt6-websockets-dev qt6-positioning-dev qt6-location-dev \
+            qt6-virtualkeyboard-dev qt6-wayland-dev qt6-tools-dev qt6-l10n-tools \
+            libqt6opengl6-dev qml6-module-qtquick-controls qml6-module-qtquick3d \
+            qml6-module-qtwebengine
+      - name: Configure (validates install rules + CPack)
+        run: cmake -B build -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/usr
+      - name: CPack config generated
+        run: test -f build/CPackConfig.cmake && grep -q 'CPACK_PACKAGE_NAME.*volta-os' build/CPackConfig.cmake

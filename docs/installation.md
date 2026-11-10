@@ -3,6 +3,29 @@
 Volta OS only runs on **Linux with a Wayland session** (Debian 13, recent Ubuntu with GNOME).
 It does not run on Windows or macOS.
 
+## 1-liner (recommended)
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/Omardigio/VoltaOS/main/scripts/install-remote.sh | bash
+```
+
+Detects apt/dnf/pacman/zypper, installs the runtime deps below, then installs the
+latest release (`.deb` on Debian/Ubuntu, `.rpm` on Fedora/openSUSE, AppImage elsewhere)
+plus the Python service libraries. Options: `--tag v1.0`, `--method deb|rpm|appimage`.
+
+## Native packages
+
+Download from the [**Releases**](https://github.com/Omardigio/VoltaOS/releases) page:
+
+- **Debian/Ubuntu:** `sudo apt install ./volta-os_*_amd64.deb`
+- **Fedora/openSUSE:** `sudo dnf install ./volta-os-*.rpm` (or `rpmbuild` from `packaging/volta-os.spec`)
+- **Arch:** use the AUR package `volta-os-bin` (binary release) or `volta-os-git`
+  (build from source) - see `packaging/aur/`. Replace the `SKIP` checksum with the
+  release asset sha256 before publishing.
+
+Then install the Python service libraries (step 2c below). Your data stays in
+`~/.local/share/volta_os/`.
+
 ## AppImage (no compiling)
 
 The AppImage already contains Qt, the maps plugin, the 3D car model and the Volta OS services. It does **not**

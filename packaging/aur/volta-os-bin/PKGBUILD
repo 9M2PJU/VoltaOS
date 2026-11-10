@@ -1,0 +1,41 @@
+# Maintainer: VoltaOS contributors <https://github.com/Omardigio/VoltaOS/issues>
+# AUR package for Volta OS - binary release (repacks the official AppImage).
+# Submit: copy this directory to a fresh aur repo (git clone ssh://aur@aur.archlinux.org/volta-os-bin.git)
+pkgname=volta-os-bin
+pkgver=1.0
+pkgrel=1
+pkgdesc="In-car touchscreen interface for Linux (Qt6/QML) - binary AppImage release"
+arch=('x86_64')
+url="https://github.com/Omardigio/VoltaOS"
+license=('GPL-3.0-only')
+depends=('fuse2' 'mpv' 'python' 'python-dbus' 'networkmanager' 'bluez' 'pipewire-pulse'
+         'libgl' 'libx11' 'libxcb' 'fontconfig' 'freetype2' 'wayland' 'alsa-lib' 'libusb')
+optdepends=('spotifyd: Spotify Connect playback'
+            'easyeffects: equalizer and audio presets'
+            'gamescope: Windows games in the Arcade')
+provides=('volta-os')
+conflicts=('volta-os' 'volta-os-git')
+source=("VoltaOS-${pkgver}-x86_64.AppImage::https://github.com/Omardigio/VoltaOS/releases/download/v${pkgver}/VoltaOS-${pkgver}-x86_64.AppImage")
+sha256sums=('SKIP')  # TODO: replace with the real sha256 of the release asset before publishing
+options=('!strip')
+
+package() {
+    install -Dm755 "${srcdir}/VoltaOS-${pkgver}-x86_64.AppImage" "${pkgdir}/opt/volta-os/VoltaOS.AppImage"
+    install -dm755 "${pkgdir}/usr/bin"
+    ln -s /opt/volta-os/VoltaOS.AppImage "${pkgdir}/usr/bin/VoltaOS"
+    # Desktop entry + icon (AppImage embeds volta-os.desktop; keep a system copy too)
+    install -Dm644 /dev/stdin "${pkgdir}/usr/share/applications/volta-os.desktop" <<'DESK'
+[Desktop Entry]
+Type=Application
+Name=Volta OS
+Comment=In-car interface
+Exec=/opt/volta-os/VoltaOS.AppImage
+Icon=volta-os
+Categories=Utility;
+Terminal=false
+DESK
+    # Icon ships in the repo as packaging/volta-os.png; AUR tarball has no access to it,
+    # so fetch it from the release tag at build time is avoided on purpose:
+    # the AppImage itself carries the icon. This is a placeholder for desktop lint.
+    :
+}

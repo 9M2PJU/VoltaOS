@@ -92,6 +92,32 @@ You need Qt from the official installer in `~/Qt` and the tools `linuxdeploy`, `
 `appimagetool` in `~/appimage-tools`. It works in `build/appimage-work` (not in `/tmp`, often small).
 Do not set `LD_LIBRARY_PATH` in `AppRun`: gamescope, Wine and Python would inherit it.
 
+## Native packages (.deb / .rpm)
+
+`CMakeLists.txt` has FHS install rules (`/usr/bin/VoltaOS` +
+`/usr/share/volta_os/...`, same layout as the AppImage AppDir) plus CPack
+generators. `src/main.cpp:projectDir()` knows the FHS locations, so no `VOLTA_DIR`
+is needed for a system install.
+
+```bash
+cmake -B build -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/usr
+cmake --build build -j$(nproc)
+(cd build && cpack -G DEB)   # or: cpack -G RPM
+sudo apt install ./build/volta-os_*_amd64.deb
+```
+
+Library deps are auto-detected via dpkg-shlibdeps; `CPACK_DEBIAN_PACKAGE_DEPENDS`
+only lists non-library runtime deps (mpv, python3, NetworkManager, bluez...).
+Python service deps from `requirements.txt` (ytmusicapi, spotipy, ...) have no
+1:1 distro packages and are intentionally not hard deps: install them per-user
+with pip (see `docs/installation.md`), the setup wizard warns about missing ones.
+
+`packaging/volta-os.spec` is the rpmbuild/COPR equivalent of the CPack RPM.
+`packaging/aur/` holds `volta-os-bin` (repacks the release AppImage) and
+`volta-os-git` (source build) with pre-generated `.SRCINFO`.
+`.github/workflows/packaging.yml` lints the scripts and validates a distro-Qt
+configure on every packaging-related push/PR.
+
 ## 3D models and licenses
 
 Do not put 3D models or images in the repository unless you have the right to redistribute them. Your own
